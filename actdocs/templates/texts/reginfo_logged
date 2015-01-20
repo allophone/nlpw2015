@@ -1,0 +1,40 @@
+<style type="text/css">
+#reginfo_loggedin p {
+margin: 1em 0;
+line-height:normal;
+}
+
+#reginfo_loggedin h3 {
+  font-size:1.7em;
+}
+
+</style>
+
+<div id="reginfo_loggedin">
+
+  [% IF !global.request.user.has_registered %]
+    <h3>[% nlpw_reginfo_title %]</h2>
+  [% ELSE %]
+    <h3>
+      <t><nl>Al voor de workshop ingeschreven</nl>
+      <en>Already registered for the workshop</en></t>
+    </h3>
+  [% END %]
+
+  <p>
+  <t><nl>U bent al ingelogd[% IF global.request.user.has_registered %] en ook al[% ELSE %], maar nog niet[% END %] voor de workshop ingeschreven.
+  </nl><en>You're logged in[% IF global.request.user.has_registered %] and already[% ELSE %], but not yet[% END %] registered for the workshop.
+  </en></t>
+  </p><p>
+  <t><nl>Als ingelogde gebruiker kunt u alle [% IF global.request.user.has_registered %]verdere [% END %]instellingen voor de workshop-inschrijving altijd beheren vanuit uw pagina </nl>
+  <en>As a logged-in user you can manage all [% IF global.request.user.has_registered %]further [% END %]settings related to your workshop registration from the page</en></t>
+  <a href="[% make_uri('main') %]">[% cs_main_private_page %]</a> [% "(menu: <b>$cs_usermenu/$cs_edit_profile</b>)" %].
+  </p><p>
+    [% IF !global.request.user.has_registered %]
+      <t><nl>Voor het gemak volgt ook hier een link om <a href="[% make_uri('register') %]">in te schrijven voor de workshop</a>.</nl>
+      <en>For your convenience, a link to <a href="[% make_uri('register') %]">register for the workshop</a> is included here as well.</en></t>
+  </p><p>
+    [% END %]
+  </p>
+
+</div>  <!-- end of #reginfo_loggedin -->

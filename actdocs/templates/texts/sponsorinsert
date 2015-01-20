@@ -1,0 +1,81 @@
+﻿<h5>
+<t><nl>
+We danken onze sponsors!
+</nl><en>
+We thank our sponsors!
+</en></t>
+</h5>
+
+<!--
+<div class="booking">
+  <div class="bkarea">
+    <a href="http://www.booking.com" target="_blank">
+      <img 
+        class="bklogo"
+        src="[% $cs_home_link %]logos/booking_logo-full.png" 
+        alt="logo booking.com"
+      />
+    </a>
+    <a href="http://www.booking.com" target="_blank">
+      <img 
+        class="bkword"
+        src="[% $cs_home_link %]logos/booking.png" 
+        alt="logo booking.com"
+      />
+    </a>
+  </div>
+</div>
+-->
+
+<div class="booking13">
+  <a href="http://www.booking.com" target="_blank">
+    <img 
+      src="[% $cs_home_link %]logos/booking14.png" 
+      alt="logo booking.com"
+    />
+  </a>
+</div>
+
+<div class="dijkmat">
+  <a href="http://www.dijkmat.nl" target="_blank">
+    <img 
+      src="[% $cs_home_link %]logos/Dijkmat_60_2014.png" 
+      alt="logo Dijkmat"
+    />
+  </a>
+</div>
+
+<div class="tnx">
+  <a href="http://www.tnx.nl" target="_blank">
+    <img 
+      src="[% $cs_home_link %]logos/tnx.png" 
+      alt="logo tnx"
+    />
+  </a>
+</div>
+
+<div class="spoorgloren">
+  <a href="http://spoorgloren.nl/" target="_blank">
+    <img 
+      src="[% $cs_home_link %]logos/spoorgloren_2014.png" 
+      alt="logo Spoorgloren"
+    />
+  </a>
+</div>
+
+<div style="height:0.2em;"></div>
+
+<div class="text">
+<t><nl>
+Belangstelling ons te spon&shy;se&shy;ren en een groot pu&shy;bliek van Perl-talent te be&shy;rei&shy;ken?
+</nl><en>
+Interested in sponso&shy;ring us and rea&shy;ching a large au&shy;dience of Perl talent?
+</en></t>
+  <a href="sponsoring.html">
+<t><nl>
+Klik hier
+</nl><en>
+Click here
+</en></t>
+  </a>
+</div>

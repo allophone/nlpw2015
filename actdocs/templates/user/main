@@ -1,0 +1,396 @@
+[% nlpw_flag_page = 'main' %]
+[% IF !cs_processed %][% PROCESS custom/strings %][% END %]
+
+[% WRAPPER ui title = cs_main_private_page %]
+
+<t>
+<nl>[% disabled_link = 'class="disabled" title="Link inactief. Zie reden hiernaast."' %]</nl>
+<en>[% disabled_link = 'class="disabled" title="Link disabled. See reason on the right."' %]</en>
+</t>
+
+<div id="profilecontent">
+<p>
+<t>
+<nl>Op deze pagina beheert u alle instellingen voor uw deelname aan de [% global.conference.name %] alsmede de informatie over uzelf.</nl>
+<en>On this page you can manage all settings for your participation in the [% global.conference.name %] as well as the information about yourself.</en>
+</t>
+<t><nl>U komt hier vanzelf na inloggen of inschrijven voor de workshop of later via <b>[% "$cs_usermenu/$cs_edit_profile" %]</b>.</nl>
+<en>You get here automatically after logging in or registering for the workshop, or later by <b>[% "$cs_usermenu/$cs_edit_profile" %]</b>.</en>
+</t>
+<div style="font-size:90%;text-align:right;">[% PROCESS custom/homelink %]</div>
+<p>
+
+[%# NOTE ON ORIGINAL user/main
+
+two sections:
+  - status display area
+      enclosed in (IF global.request.conference)-bracket
+  - link area (under: you can)
+      1st part enclosed in (IF global.request.user.has_registered)-bracket
+      2nd part without conditions
+
+I assume that 'has_registered' cannot occur without a conference.
+
+%]
+
+
+[%# SECTION 1 WORKSHOP
+
+The whole workshop section is enclosed in (IF global.request.conference)-bracket
+
+%]
+
+<h2 title="
+<t><nl>Instellingen specifiek voor deze workshop</nl>
+<en>Settings that are specific to this workshop</en></t>
+">
+<t>
+<nl>Instellingen voor deelname aan de [% global.conference.name %]</nl>
+<en>Settings for participation in the [% global.conference.name %]</en>
+</t>
+
+</h2>
+
+[%# SUBSECTION 1.1 WORKSHOP--REGISTRATION %]
+
+[% IF !global.request.conference %]
+Not applicable: site is not linked to a workshop.
+[% ELSE %]
+
+<div class="container">
+  <div class="row">
+    <h3>
+<t>
+<nl>Inschrijving</nl>
+<en>Registration</en>
+</t>
+    </h3>
+  </div>
+  [% IF global.config.closed %]
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-8">
+<t><nl>Sorry, inschrijving voor deze workshop is gesloten.</nl>
+<en>Sorry, registration for this workshop is no longer possible.</en></t>
+    </div>
+  </div>
+  [% ELSIF !global.request.user.has_registered %]
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="[% make_uri('register') %]">
+<t><nl>inschrijven</nl>
+<en>register</en></t>
+      </a>
+    </div>
+    <div class="col-sm-8">
+<t><nl>U bent nog niet voor de workshop ingeschreven.<br>Klik op de link hiernaast als u naar de workshop wilt komen.</nl>
+<en>You have not registered for the workshop.<br>Please click on the link on the left if you plan to come to the workshop.</en></t>
+    </div>
+  </div>
+
+  [% ELSIF can_unregister %]
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="[% make_uri('unregister') %]">
+<t><nl>uitschrijven van de workshop</nl>
+<en>unregister from the workshop</en></t>
+      </a>
+    </div>
+    <div class="col-sm-8">
+<t><nl>U bent voor de workshop ingeschreven.<br>Mocht u toch niet kunnen komen, kunt u zich hiernaast weer uitschrijven.</nl>
+<en>You have registered for the workshop.<br>Should you no longer be able to attend, please click the link on the left to unregister.</en></t>
+    </div>
+  </div>
+  [% ELSE %]  [%# registered, but can't unregister #%]
+  <div class="row">
+    <div class="col-sm-4">
+      <span [% disabled_link %]>
+<t><nl>uitschrijven van workshop</nl>
+<en>unregister from workshop</en></t>
+      </span>
+    </div>
+    <div class="col-sm-8">
+<t><nl>U bent voor de workshop ingeschreven.<br>Uitschrijven is nu niet mogelijk omdat:</nl>
+<en>You have registered for the workshop.<br>Unregistering is not possible now because:</en></t>
+      <ul>
+    [% IF global.request.user.has_paid %]
+        <li>
+<t><nl>u al een bijdrage betaald heeft</nl>
+<en>you have already paid a fee</en></t>
+    [% END %]
+        </li>
+    [% IF global.request.user.has_talk %]
+        <li>
+<t><nl>u al een presentatie heeft ingediend</nl>
+<en>you have submitted a talk</en></t>
+    [% END %]
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  [% END %]
+</div>
+
+[%# SUBSECTION 1.2 WORKSHOP--PRESENTATIONS %]
+
+<div class="tablespacer"></div>
+<div class="container">
+  <div class="row">
+    <h3>
+<t>
+<nl>Presentaties</nl>
+<en>Presentations</en>
+</t>
+    </h3>
+  </div>
+
+    [% IF global.config.talks_submissions_open
+       AND global.request.user.has_registered %]
+  <div class="row">
+    <div class="col-sm-4">
+        <a href="[% make_uri('newtalk') %]">{{submit a talk}}</a>
+    </div>
+    <div class="col-sm-8">
+<t><nl>Stel een presentatie voor die u op de workshop zou willen geven.</nl>
+<en>Propose a talk you would like to give at the workshop.</en></t>
+    </div>
+  </div>
+    [% ELSE %]
+  <div class="row">
+    <div class="col-sm-4">
+      <span [% disabled_link %]>{{submit a talk}}</span>
+    </div>
+    <div class="col-sm-8">
+<t><nl>U kunt nu geen presentatie indienen omdat:</nl>
+<en>You cannot submit talks now because:</en></t>
+      <ul>
+  [% IF !global.request.user.has_registered %]
+        <li>
+<t><nl>u zich nog niet voor de workshop heeft ingeschreven</nl>
+<en>you have not registered for the workshop</en></t>
+  [% END %]
+        </li>
+  [% IF !global.config.talks_submissions_open %]
+        <li>
+<t><nl>indiening nog niet of niet meer geopend is</nl>
+<en>submission is not yet or no longer open</en></t>
+  [% END %]
+      </ul>
+    </div>
+  </div>
+    [% END %]
+
+  <div class="row">
+    <div class="col-sm-4">
+    [%# talks = global.request.user.talks %]
+    [% IF global.request.conference AND talks.size %]
+<t><nl>U heeft de volgende presentaties ingediend (geaccepteerde presentaties worden <b>vet</b> getoond):</nl>
+<en>You have so far submitted the following talks (accepted talks are shown in <b>bold</b>):</en></t>
+          <ul style="padding-left:3em;">
+           [% FOR t = talks %]
+             <li>[% talk_link(t) %] [% talk_modify_link(t) %]</li>
+           [% END %]
+          </ul>
+        </li>
+    [% ELSE %]
+<t><nl>U heeft nog geen presentaties ingediend.</nl>
+<en>You have not submitted any talks yet.</en></t>
+    [% END %]
+    </div>
+  </div>
+</div>
+
+[%# SUBSECTION 1.3 WORKSHOP--PAYMENT 
+
+In original user/main 
+  - status display area has 2 payment parts:
+      part 1 enclosed in (IF ...has_paid)-bracket
+      part 2 enclosed in (IF ...payment_type != "NONE")-bracket
+  - link area
+      is fully enclosed in (IF ...payment_type != "NONE")-bracket
+
+All payment parts are inside (IF ...has_registered)-bracket
+
+ => Table only shown if either (...has_paid) or (...payment_type != "NONE") and (IF ...has_registered)
+
+%]
+
+[% show_pay_table = 
+         global.request.user.has_registered
+    AND (global.config.payment_type != "NONE" OR global.request.user.has_paid);
+
+   gratis = global.config.registration_gratis;
+%]
+
+  [% IF show_pay_table %]
+
+<div class="tablespacer"></div>
+<div class="container">
+  <div class="row">
+    <h3>
+<t><nl>Betalingen[%- IF gratis -%] en bevestiging via betaalsysteem[% END %]</nl>
+<en>Payments[%- IF gratis -%] and confirmation through payment system[% END %]</en></t>
+    </h3>
+  </div>
+    [% IF !global.config.payment_open %]
+  <div class="row">
+    <td class="profileinfo" colspan="2">
+<t><nl>Het online-betaalsystem is nog niet actief. </nl>
+<en>The online payment system is not yet activated. </en></t>
+<t><nl>U kunt al wel via bankoverschrijving betalen, zoals beschreven op de pagina <a href="cost.html">Kosten en betaling</a>.</nl>
+<en>You can, however, pay by bank transfer as described on the page <a href="cost.html">Cost and payment</en></t>
+    </div>
+  </div>
+    [% ELSE %]
+      [% IF !global.request.user.has_paid %]
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="[% make_uri('purchase') %]">
+          [%- IF !gratis -%]
+<t><nl>inschrijfgeld online betalen</nl>
+<en>{{purchase your conference ticket}} online</en></t>
+          [%- ELSE -%]
+            {{confirm your participation}} online
+          [%- END -%]
+      </a>
+    </div>
+    <div class="col-sm-8">
+          [% IF gratis %]
+<t><nl>De workshop is gratis, maar u kunt met deze link online een donatie geven of uw aanwezigheid bevestigen.</nl>
+<en>The conference is free, but you can make an online payment as a donation or confirm your attendance with this link.</en></t>
+          [% ELSE %]
+<t><nl>Gebruik deze link als u uw inschrijfgeld online wilt betalen.</nl>
+<en>Use this link to buy your ticket online.</en></t>
+          [% END %]
+    </div>
+  </div>
+      [% END %]
+      [% IF additional_purchase %]
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="[% make_uri('purchase') %]">{{make additional purchases}}</a>
+    </div>
+    <div class="col-sm-8">
+<t><nl>Naast het inschrijfgeld zijn er nog meer producten die u online kunt kopen.</nl>
+<en>Other than the conference ticket there are yet more products you can buy online.</en></t>
+    </div>
+  </div>
+      [% END %]
+    [% END  # end of 'payment_open' (else-branch of !payment_open) %]
+  
+    [% IF orders.size %]
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="[% make_uri('orders') %]">
+        <!--<t><nl>Bekijk al uw aankopen</nl><en>View all your purchase</en></t>-->
+        {{view all orders and invoices}}
+      </a>
+    </div>
+    <div class="col-sm-8">
+<t><nl>Open een lijst met alle aankopen die u heeft gedaan.</nl>
+<en>Click to view all purchases you made.</en></t>
+    </div>
+  </div>
+       
+    [% END %]
+
+[%# The following part corresponds to the payment related part of the status display area of the original main/user %]
+
+    [% IF global.request.user.has_paid %]
+  <div class="row">
+    <td class="profileinfo" colspan="2">
+      {{You have purchased your conference ticket:}}</p>
+      <table>
+        <div class="row"><td>{{Order number}}:</div><td>[% order.order_id %]</div></div>
+        <div class="row"><td>{{Payment date}}:</div><td>[% date_format(order.datetime, 'datetime_full') %] GMT</div></div>
+        <div class="row"><td>{{Amount paid}}:</div><td>[% order.amount %] [% order.currency %]</div></div>
+      </div>
+      [% IF global.config.payment_invoices  # extra condition on top of has_paid %]
+        [% loc("Download your invoice", make_uri_info('invoice', order.order_id)) %]
+      [% END %]
+    </div>
+  </div>
+    [% END %]
+</div>
+
+  [% END   # end of condition controlling display of subsection WORKSHOP--PAYMENT %]
+
+[% END   # end of condition surrounding WORKSHOP-section %]
+
+
+[%# SECTION 2 PERSONAL_INFO %]
+
+<h2 title="
+<t><nl>Gegevens over u als persoon die grotendeels ook voor andere workshops geldig blijven</nl>
+<en>Data about you as a person that will largely remain valid for other workshops</en></t>
+">
+<t>
+<nl>Informatie over uzelf</nl>
+<en>Information about yourself</en>
+</t>
+</h2>
+
+<div class="container">
+  <div class="row">
+    <h3>
+<t>
+<nl>Voorkeuren, zelf-introductie, foto</nl>
+<en>Preferences, self-intro and picture</en>
+</t>
+
+    </h3>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="[% make_uri('change') %]">{{update your information}}</a>
+    </div>
+    <div class="col-sm-8">
+<t><nl>Stel u aan andere deelnemers voor. <i>NB</i>: Hou ook uw T-shirt-maat actueel voor als er T-shirts worden besteld!</nl>
+<en>Introduce yourself to other participants. <i>Note</i>: Also keep your T-shirt size up to date, in case T-shirts get ordered.</en></t>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="[% make_uri('photo') %]">{{manage your photo}}</a>
+    </div>
+    <div class="col-sm-8">
+<t><nl>Wijzig de foto die anderen van u kunnen zien.</nl>
+<en>Change the picture other people see of you.</en></t>
+    </div>
+  </div>
+</div>
+
+[%# SECTION 3 ACCOUNT_ACTIONS %]
+
+<h2>
+<t>
+<nl>Account-handelingen</nl>
+<en>Account actions</en>
+</t>
+</h2>
+[% IF global.request.conference %]
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="[% make_uri('changepwd') %]">{{change your password}}</a>
+    </div>
+    <div class="col-sm-8"></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="[% make_uri('logout') %]">{{log out}}</a>
+    </div>
+    <div class="col-sm-8"></div>
+  </div>
+</div>
+[% ELSE %]
+<t><nl>Niet van toepassing. Dit is geen workshop-site.</nl>
+<en>Not applicable. This is not a workshop site.</en></t>
+[% END %]
+
+</div>
+
+[% END %]
+

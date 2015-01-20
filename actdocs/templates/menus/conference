@@ -1,0 +1,22 @@
+<li class="dropdown">
+  <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+     <i class="fa fa-bullhorn hidden-md hidden-lg"></i><span class="hidden-sm">Conference</span> <b class="caret"></b>
+  </a>
+  <ul class="dropdown-menu">
+    [% IF 0 %] 
+      <li><a href="[% make_uri_info('about.html') %]">About</a></li>
+      <li><a href="[% make_uri_info('conduct.html') %]">Code of Conduct</a></li>
+      <li><a href="[% make_uri_info('search?name=') %]">Attendee search</a></li>
+      <li><a href="[% make_uri_info('stats') %]">Statistics</a></li>
+    [% END %]
+
+[% FOREACH page IN cs_pages %]
+  [% WRAPPER menus/item %]
+    <a href="[% cs_home_link %][% cs_page_url.$page %]">
+      [% cs_page_titles.$page %]
+    </a>
+  [% END %]
+[% END %] 
+
+  </ul>
+</li>

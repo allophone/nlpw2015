@@ -1,0 +1,87 @@
+[% IF !cs_processed %][% PROCESS custom/strings %][% END %]
+
+<h4>
+<t><nl>Lees meer:</nl>
+<en>Read more:</en></t>
+</h4>
+<div class="contentarea">
+	<ul class="linklist">
+
+[% IF cs_video_link %]
+		<li><a href="videos.html">
+<t><nl>Video's</nl>
+<en>Videos</en></t>
+    </a></li>
+[% END %]
+
+		<li><a href="venue.html">
+<t><nl>De locatie</nl>
+<en>Venue</en></t>
+    </a></li>
+
+		<li><a href="accommodation.html">
+<t><nl>Overnachting</nl>
+<en>Accommodation</en></t>
+    </a></li>
+
+		<li><a href="registration_info.html">
+<t><nl>Workshop-Inschrijving</nl>
+<en>Workshop registration</en></t>
+    </a></li>
+
+		<li><a href="cost.html">
+<t><nl>Kosten en betaling</nl>
+<en>Cost and payment</en></t>
+    </a></li>
+
+		<li><a href="speakers.html">
+<t><nl>Presentaties voorstellen</nl>
+<en>Proposing talks</en></t>
+    </a></li>
+
+		<li><a href="language.html">
+<t><nl>Voertaal</nl>
+<en>Workshop language</en></t>
+    </a></li>
+
+[% IF 0 %]
+		<li><a href="sponsors.html">
+<t><nl>Onze sponsors</nl>
+<en>Our sponsors</en></t>
+    </a></li>
+[% END %]
+
+		<li><a href="sponsoring.html">
+<t><nl>Sponsor worden</nl>
+<en>Becoming a sponsor</en></t>
+    </a></li>
+
+		<li><a href="conferences_nl.html">
+<t><nl>Eerdere NL-workshops</nl>
+<en>Previous NL workshops</en></t>
+    </a></li>
+
+		<li><a href="conferences_curr.html">
+<t><nl>Actuele Perl workshops</nl>
+<en>Current Perl workshops</en></t>
+    </a></li>
+
+		<li><a href="library.html">
+<t><nl>Unieke Perl-bibliotheek</nl>
+<en>Unique Perl library</en></t>
+    </a></li>
+
+		<li><a href="contact.html">
+<t><nl>Contact</nl>
+<en>Contact</en></t>
+    </a></li>
+
+		<li>
+<div style="font-size:90%;text-align:right;font-style:italic;">
+  [% PROCESS custom/homelink %]
+</div>
+    </li>
+
+	</ul>
+
+</div>

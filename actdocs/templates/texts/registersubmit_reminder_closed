@@ -1,0 +1,26 @@
+<img src="images/kameel_dark_clear.png"
+  alt="<t><nl>plaatje van een kameel</nl><en>image of a camel</en></t>"
+  style="
+    float:left;
+    border:0px;
+    height:80px;
+    position:relative;
+    top:-8px;
+    margin-right:10px;
+  "
+/>
+<h4><t><nl>
+Je kunt je nog inschrijven!
+</nl><en>
+You can still register!
+</en></t>
+</h4>
+<div class="contentarea">
+	<p>
+<t><nl>
+We hebben al een flink aantal inschrijvingen en het programma is vol, maar je kunt je nog als deelnemer <a href="registration_info.html">inschrijven</a>.
+</nl><en>
+We have a good number of registrations, and the schedule is full, but you can still <a href="registration_info.html">register</a> to attend.
+</en></t>
+  </p>
+</div>

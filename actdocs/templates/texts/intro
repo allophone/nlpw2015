@@ -1,0 +1,60 @@
+[% IF !cs_processed %][% PROCESS custom/strings %][% END %]
+
+<h2>
+<t><nl>Nederlandse Perl-Workshop</nl>
+<en>Dutch Perl Workshop</en></t>
+[% cs_event_year %]
+</h2>
+
+<h5>
+[% cs_loc_name %]<br/>
+[% cs_loc_line2 %], [% cs_loc_line3 %]<br/>
+[% cs_event_dow FILTER ucfirst %] [% cs_event_date %], [% cs_event_start_hr %]:[% cs_event_start_min %] [% cs_event_start_ampm %] &ndash; [% cs_event_end_hr %]:[% cs_event_end_min %] [% cs_event_end_ampm %] <t><nl>uur</nl><en></en></t>
+<br/>
+</h5>
+
+<t><nl>
+<p>
+De Perl-workshop is een dag van presentaties voor gebruikers van de programmeertaal Perl van alle niveaus. Er komen ontwikkelaars die de taal zelf verder ontwikkelen alsook de vele daarin geschreven modules en professionele gebruikers van Perl uit verschillende organisaties. Maar ook nieuwelingen zijn van harte welkom.
+</p><p>
+Tijdens de presentaties en informele gesprekken blijf je op de hoogte van de laatste toevoegingen aan taal en modules en kom je hoogstwaarschijnlijk altijd oplossingen voor problemen uit de dagelijkse praktijk tegen.
+</p>
+</nl><en>
+<p>
+The Perl workshop is a day of presentations for users of the programming language Perl of all levels. There will be some of the developers who continue to extend the language itself as well as the many modules written in it and there will be professional users of Perl from many organisations. But also newcomers are warmly welcomed.
+</p><p>
+During the presentations and informal conversations, you will be kept up-to-date about the latest additions to the language itself and the available modules. And most likely, as you go along, you'll come across solutions to some of your day-to-day programming issues.
+</p>
+</en></t>
+
+  <h3>
+<t><nl>
+Zelf een presentatie geven?
+</nl><en>
+Want to give a presentation yourself?
+</en></t>
+  </h3>
+
+  <p>
+<t><nl>
+Wij kijken uit naar meer boeiende presentaties van deelnemers. Dit is ook voor jou en je bedrijf de kans om eigen Perl-projecten te presenteren, er bekendheid mee te genereren en waardevolle feedback van experts te krijgen. Dus heb je iets om met andere Perl-gebruikers delen, <a href="speakers.html">klik dan hier om je presentatie voor te stellen</a>.
+</nl><en>
+We look forward to more fascinating talks from participants. This is a great opportunity for you and your company to present your own Perl projects, make them more widely known and obtain valuable feedback from experts. So if you have anything to share with other Perl users, <a href="speakers.html">click here to propose your presentation</a>.
+</en></t>
+  </p>
+
+  <h3>
+<t><nl>
+Naborrelen
+</nl><en>
+Socializing afterwards
+</en></t>
+  </h3>
+  
+  <p>
+<t><nl>
+Het formele programma zal tegen [% cs_event_end_hr %]:[% cs_event_end_min %] uur afgelopen zijn, maar we verwachten dat heel wat mensen nog een paar uurtjes zullen blijven voor het eten, conversatie, <a href="http://en.wikipedia.org/wiki/Birds_of_a_Feather_%28computing%29" target="_blank" class="ext">BoF-sessies</a>, verwoed programmeren of welke vorm van gezelligheid dan ook.
+</nl><en>
+The formal program should end around [% cs_event_end_hr %].[% cs_event_end_min %][% cs_event_end_ampm %], but we expect quite a few people to stay on a few hours for dinner, conversations, <a href="http://en.wikipedia.org/wiki/Birds_of_a_Feather_%28computing%29" target="_blank" class="ext">BoF sessions</a>, a bit of furious coding or any kind of socializing.
+</en></t>
+  </p>

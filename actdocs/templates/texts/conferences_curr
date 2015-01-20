@@ -1,0 +1,64 @@
+<h3>
+<t><nl>Actuele Perl-workshops over de hele wereld</nl>
+<en>Current Perl workshops around the world</en>
+</t>
+</h3>
+<p style="margin-top:1em;">
+<t><nl>
+Zie welke Perl-workshops er recentelijk waren of binnenkort zullen plaatsvinden (voorzover deze ook het conferentiebeheersysteem <a href="http://act.mongueurs.net" target="_blank" class="ext">ACT</a> gebruiken).
+</nl><en>
+Check which other Perl workshops have recently taken place or will soon take place around the world (provided they also use the conference toolkit <a href="http://act.mongueurs.net" target="_blank" class="ext">ACT</a>).
+</en></t>
+</p>
+
+<div class="contentarea">
+  [% IF global.conferences.present.merge( global.conferences.future ).size==0 %]
+    <p>
+<t><nl>Geen andere conferenties gevonden.</nl>
+<en>No other conferences found.</en></t>
+    </p>
+  [% ELSE %]
+    <table class="conftable">
+      <thead>
+        <tr>
+          <td>
+<t><nl>
+Homepage
+</nl><en>
+Homepage
+</en></t>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+    [% FOREACH c = global.conferences.present.merge( global.conferences.future ) %]
+      [%# NEXT IF c.begin < last_year %]
+        <tr>
+          <td>
+            <a href="[% c.url %]" target="_blank" class="ext">[% c.name %]</a>
+            [% IF c.participation %]
+<t><nl>
+Je bent/was deelnemer.
+<nl><en>
+You are/were participant.
+</en></t>
+            [% END %]
+          </td>
+        </tr>
+
+      [% NEXT # disable the rest, don't feel like finding out how to obtain last_year%]
+      [% SWITCH c.participation %]
+      [% CASE 'past' %]
+        {{(You were there)}}
+      [% CASE 'now' %]
+        {{(You are there)}}
+      [% CASE 'future' %]
+        {{(You will be there)}}
+      [% END %]
+
+    [% END %]
+      </tbody>
+    </table>
+
+  [% END %]
+</div>

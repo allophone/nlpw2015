@@ -1,0 +1,18 @@
+[% IF !cs_processed %][% PROCESS custom/strings %][% END %]
+
+<h3>
+<t><nl>Overnachting</nl>
+<en>Accommodation</en></t>
+</h3>
+
+<p>
+<t><nl>
+Om te helpen met het zoeken naar geschikte accommodatie, hebben wij de volgende lijst van hotels in de buurt van de workshop-locatie samengesteld. De prijzen zijn ter indicatie zoals wij deze konden bepalen en gelden voor 2 nachten. U dient zelf te boeken.
+</nl><en>
+To help you find suitable accommodation, we've put together the following list of hotels near the workshop venue. The prices are meant as an indication, based on the info we were able to obtain, based on a 2-night stay. Please make the booking yourself.
+</en></t>
+</p>
+
+<div style="margin-top:1em;"></div>
+
+[% INCLUDE texts/hotel_table %]

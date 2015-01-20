@@ -1,0 +1,156 @@
+[% IF global.request.language == 'nl' %]
+  [% cs_programme        = 'Programma' %]
+[% ELSE %]
+  [% cs_programme        = 'Programme' %]
+[% END %]
+
+
+<h2>
+<t><nl>Afgelopen Nederlandse Perl-workshops</nl>
+<en>Past Dutch Perl workshops</en>
+</t>
+</h2>
+<p style="margin-top:1em;">
+<t><nl>
+Zie de programma's om een indruk van de onderwerpen te krijgen.
+</nl><en>
+Check the programmes to get an impression of the topics.
+</en></t>
+</p>
+
+<div class="panel panel-default">
+  [% IF 0 %]
+  <div class="panel-heading">
+    <h2>
+      <b>
+        <span class="glyphicon glyphicon-plane"></span>
+        <t><nl>Eerdere Nederlandse Perl-workshops</nl><en>Previous Dutch Perl Workshops</en></t>
+      </b>
+    </h2>
+  </div>
+  [% END %]
+  
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Homepage</td>
+        <th>[% cs_programme %]</td>
+      </tr>
+    <thead>
+    <tbody>
+      <tr>
+        <td><a class="ext" target="_blank" href="http://www.perlworkshop.nl/nlpw2014/?language=<t><nl>nl</nl><en>en</en></t>">NLPW 2014</a></td>
+        <td>
+          <a class="ext" target="_blank" href="http://www.perlworkshop.nl/nlpw2014/schedule?language=<t><nl>nl</nl><en>en</en></t>">
+          [% cs_programme %] 2014</a>        
+        </td>
+      </tr>
+    
+      <tr>
+        <td>
+<a class="ext" target="_blank" href="http://www.perlworkshop.nl/nlpw2013/?language=<t><nl>nl</nl><en>en</en></t>">NLPW 2013</a>        
+        </td>
+        <td>
+          <a class="ext" target="_blank" href="http://www.perlworkshop.nl/nlpw2013/schedule?language=<t><nl>nl</nl><en>en</en></t>">
+            [% cs_programme %] 2013</a>        
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+<a class="ext" target="_blank" href="http://www.perlworkshop.nl/nlpw2012/?language=<t><nl>nl</nl><en>en</en></t>">NLPW 2012</a>        
+        </td>
+        <td>
+          <a class="ext" target="_blank" href="http://www.perlworkshop.nl/nlpw2012/schedule?language=<t><nl>nl</nl><en>en</en></t>">
+            [% cs_programme %] 2012</a>        
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+<a class="ext" target="_blank" href="http://www.perlworkshop.nl/nlpw2011/?language=<t><nl>nl</nl><en>en</en></t>">NLPW 2011</a>        
+        </td>
+        <td>
+          <a class="ext" target="_blank" href="http://www.perlworkshop.nl/nlpw2011/schedule?language=<t><nl>nl</nl><en>en</en></t>">
+            [% cs_programme %] 2011</a>        
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+<a class="ext" target="_blank" href="http://www.perlworkshop.nl/nlpw2010/?language=<t><nl>nl</nl><en>en</en></t>">NLPW 2010</a>        
+        </td>
+        <td>
+          <a class="ext" target="_blank" href="http://www.perlworkshop.nl/nlpw2010/schedule?language=<t><nl>nl</nl><en>en</en></t>">
+            [% cs_programme %] 2010</a>        
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+<a class="ext" target="_blank" href="http://www.perlworkshop.nl/nlpw2009/?language=<t><nl>nl</nl><en>en</en></t>">NLPW 2009</a>
+        </td>
+        <td>
+          <a class="ext" target="_blank" href="http://www.perlworkshop.nl/nlpw2009/schedule?language=<t><nl>nl</nl><en>en</en></t>">
+            [% cs_programme %] 2009</a>
+          +
+          <a href="http://yapc.tv/2009/nlpw/" target="_blank" class="ext">
+            <t><nl>een paar video's</nl><en>a few videos</en></t></a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+<a class="ext" target="_blank" href="http://archief.perlworkshop.nl/wiki/wiki.cgi?Home">NLPW 2008</a>        
+        </td>
+        <td>
+          <a class="ext" target="_blank" href="http://archief.perlworkshop.nl/wiki/wiki.cgi?Programma">
+            [% cs_programme %] 2008</a>        
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+<a class="ext" target="_blank" href="http://archief.perlworkshop.nl/wiki/wiki.cgi?2007/Home">NLPW 2007</a>        
+        </td>
+        <td>
+          <a class="ext" target="_blank" href="http://archief.perlworkshop.nl/wiki/wiki.cgi?2007/Programma">
+            [% cs_programme %] 2007</a>        
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+<a class="ext" target="_blank" href="http://archief.perlworkshop.nl/wiki/wiki.cgi?2006/Perl_Workshop">NLPW 2006</a>        
+        </td>
+        <td>
+          <a class="ext" target="_blank" href="http://archief.perlworkshop.nl/wiki/wiki.cgi?2006/Programma">
+            [% cs_programme %] 2006</a>        
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+<a class="ext" target="_blank" href="http://archief.perlworkshop.nl/wiki/wiki.cgi?2005/Perl_Workshop">NLPW 2005</a>        
+        </td>
+        <td>
+          <a class="ext" target="_blank" href="http://archief.perlworkshop.nl/wiki/wiki.cgi?2005/Programma">
+            [% cs_programme %] 2005</a>        
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+<a class="ext" target="_blank" href="http://archief.perlworkshop.nl/wiki/wiki.cgi?2004/Perl_Workshop">NLPW 2004</a>        
+        </td>
+          <td>
+          <a class="ext" target="_blank" href="http://archief.perlworkshop.nl/wiki/wiki.cgi?2004/Programma">
+            [% cs_programme %] 2004</a>        
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+</div>

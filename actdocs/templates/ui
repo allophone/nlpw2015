@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    [% IF !cs_processed %][% PROCESS custom/strings %][% END %]
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- OpenId -->
+    [% IF openid %]
+    <link rel="openid.server" href="[% global.request.base_url %][% make_uri('openid') %]" />
+    [% END %]
+    <link rel="alternate" type="application/atom+xml" title="[% global.conference.name %]" href="[% global.request.base_url %][% make_uri_info( 'atom', global.request.language ) %].xml" />
+    <title>[% global.conference.name %][% IF title %] | [% title  %][% END %]</title>
+
+    <!--    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'> -->
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+
+    <link rel="stylesheet" type="text/css" href="[% make_uri_info('css', 'bootstrap.css') %]" />
+    <link rel="stylesheet" type="text/css" href="[% make_uri_info('css', 'style.css') %]" />
+    <link rel="stylesheet" type="text/css" href="[% make_uri_info('css', 'sponsors.css') %]" />
+    <!--    <link rel="stylesheet" type="text/css" href="[% make_uri_info('css', 'font-awesome.min.css') %]" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body [% IF banner %] class="with-banner" [% END %] lang="[% global.request.language %]">
+    <div class="navbar navbar-default navbar-static-top" id="main-menu" role="navigation">
+      [% PROCESS menu %]
+    </div>
+
+    [% IF banner %]
+      <div class="pattern" role="main">
+        <div class="container">
+          <div class="col-md-7">
+            <img src="[% make_uri_info('img', 'NLPW.png') %]" alt="NLPW Logo" style="width:100%;">
+          </div>
+          <div class="col-md-5">
+            <h2><span class="nlpwbold">[% global.conference.name %]</span></h2>
+            <h2><span class="nlpwbold">[% cs_event_date %] :: [% cs_loc_city %]</span></h2>
+            <p>
+              <a href="[% make_uri_info('newtalk') %]" class="btn btn-primary btn-lg">Submit a talk <span class="glyphicon glyphicon-chevron-right"></span></a>
+              <a href="[% make_uri_info('register') %]" class="btn btn-primary btn-lg">Register <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </p>
+          </div>
+        </div>
+      </div>
+      [% PROCESS sponsors %]
+    [% ELSE %]
+      <div class="pg-separator" role="banner">
+        <div class="container">
+          <h1>[% page_title || title %]</h1>
+          [% IF page_description %]
+          <p>[% page_description %]</p>
+          [% END %]
+        </div>
+      </div>
+    [% END %]
+
+    <main>
+      <div class="main-content container">
+        [% content %]
+      </div>
+    </main>
+    
+    <footer class="bs-docs-footer" role="contentinfo">
+      [% IF !banner %]
+        [% PROCESS sponsors %]
+      [% END %]
+
+      [% PROCESS footer %]
+    </footer>
+    <script src="[% make_uri_info('js', 'bootstrap.min.js') %]"></script>
+    <!-- ACT base stuff
+    <link rel="stylesheet" type="text/css" href="/css/act-base.css" />
+    <link rel="stylesheet" type="text/css" href="/css/schedule.css" />
+    <script type="text/javascript" src="/js/act.js"></script>
+    -->
+  </body>
+</html>

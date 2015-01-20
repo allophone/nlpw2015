@@ -1,0 +1,158 @@
+<div class="sponsortable">
+
+  <table width="100%" border="0" cellspacing="0">
+    <tr>
+      <td rowspan="3" colspan="11">
+        <div class="sponsor" id="sponsor_001">
+          <a href="./sponsors.html#sponsor_bm_001">
+            <img alt="sponsor" src="[% make_uri_info('logos', 'booking.png') %]" width="80%" />
+          </a>
+        </div>
+      </td>
+
+      <td rowspan="3" colspan="1" width="02%" align="center">
+        <div class="sponsor-divider" id="sponsor-divider-platinum-gold"></div>
+      </td>
+
+      <td rowspan="1" colspan="5">
+        <div class="sponsor" id="sponsor_011">
+          <a href="./sponsors.html#sponsor_bm_011">
+            <img alt="sponsor" src="[% make_uri_info('logos', 'tevreden.png') %]" width="100%" />
+          </a>
+        </div>
+      </td>
+
+      <td rowspan="1" colspan="1" width="03%">
+        <div class="sponsor-divider-gold"></div>
+      </td>
+
+      <td rowspan="1" colspan="5">
+        <div class="sponsor" id="sponsor_012">
+          <a href="./sponsors.html#sponsor_bm_012">
+            <img alt="sponsor" src="[% make_uri_info('logos', 'camelia.png') %]" width="100%" />
+          </a>
+        </div>
+      </td>
+
+    </tr>
+    <tr>
+      <td rowspan="1" colspan="11" align="center">
+        <div class="sponsor-divider" id="sponsor-divider-gold-silver">
+        </div>
+      </td>
+
+    </tr>
+    <tr>
+      <td rowspan="1" colspan="3">
+        <div class="sponsor" id="sponsor_021">
+          <a href="./sponsors.html#sponsor_bm_021">
+            <img alt="sponsor" src="[% make_uri_info('logos', 'sponsor_021.png') %]" width="100%" />
+          </a>
+        </div>
+      </td>
+
+      <td rowspan="1" colspan="1" width="02%" align="center">
+        <div class="sponsor-divider-silver"></div>
+      </td>
+
+      <td rowspan="1" colspan="3">
+        <div class="sponsor" id="sponsor_022">
+          <a href="./sponsors.html#sponsor_bm_022">
+            <img alt="sponsor" src="[% make_uri_info('logos', 'spoorgloren.png') %]" width="100%" />
+          </a>
+        </div>
+      </td>
+
+      <td rowspan="1" colspan="1" width="02%" align="center">
+        <div class="sponsor-divider-silver"></div>
+      </td>
+
+      <td rowspan="1" colspan="3">
+        <div class="sponsor" id="sponsor_023">
+          <a href="./sponsors.html#sponsor_bm_023">
+            <img alt="sponsor" src="[% make_uri_info('logos', 'sponsor_023.png') %]" width="100%" />
+          </a>
+        </div>
+      </td>
+
+    </tr>
+    <tr>
+      <td colspan="23" align="center">
+        <div class="sponsor-divider" id="sponsor-divider-silver-bronze">
+        </div>
+      </td>
+
+    </tr>
+    <tr class="sponsors-bronze">
+      <td rowspan="1" colspan="3" width="15%">
+        <div class="sponsor" id="sponsor_031">
+          <a href="./sponsors.html#sponsor_bm_031">
+            <img alt="sponsor" src="[% make_uri_info('logos', 'sponsor_031.png') %]" width="80%" />
+          </a>
+        </div>
+      </td>
+
+      <td rowspan="1" colspan="1" width="02%" align="center">
+        <div class="sponsor-divider-bronze"></div>
+      </td>
+
+      <td rowspan="1" colspan="3" width="15%">
+        <div class="sponsor" id="sponsor_032">
+          <a href="./sponsors.html#sponsor_bm_032">
+            <img alt="sponsor" src="[% make_uri_info('logos', 'sponsor_032.png') %]" width="80%" />
+          </a>
+        </div>
+      </td>
+
+      <td rowspan="1" colspan="1" width="02%" align="center">
+        <div class="sponsor-divider-bronze"></div>
+      </td>
+
+      <td rowspan="1" colspan="3" width="15%">
+        <div class="sponsor" id="sponsor_033">
+          <a href="./sponsors.html#sponsor_bm_033">
+            <img alt="sponsor" src="[% make_uri_info('logos', 'tnx.png') %]" width="80%" />
+          </a>
+        </div>
+      </td>
+
+      <td rowspan="1" colspan="1" width="02%" align="center">
+        <div class="sponsor-divider-bronze"></div>
+      </td>
+
+      <td rowspan="1" colspan="3" width="15%">
+        <div class="sponsor" id="sponsor_034">
+          <a href="./sponsors.html#sponsor_bm_034">
+            <img alt="sponsor" src="[% make_uri_info('logos', 'dbic.png') %]" width="80%" />
+          </a>
+        </div>
+      </td>
+
+      <td rowspan="1" colspan="1" width="02%" align="center">
+        <div class="sponsor-divider-bronze"></div>
+      </td>
+
+      <td rowspan="1" colspan="3" width="15%">
+        <div class="sponsor" id="sponsor_035">
+          <a href="./sponsors.html#sponsor_bm_035">
+            <img alt="sponsor" src="[% make_uri_info('logos', 'sponsor_035.png') %]" width="80%" />
+          </a>
+        </div>
+      </td>
+
+      <td rowspan="1" colspan="1" width="02%" align="center">
+        <div class="sponsor-divider-bronze"></div>
+      </td>
+
+      <td rowspan="1" colspan="3" width="15%">
+        <div class="sponsor" id="sponsor_036">
+          <a href="./sponsors.html#sponsor_bm_036">
+            <img alt="sponsor" src="[% make_uri_info('logos', 'sponsor_036.png') %]" width="80%" />
+          </a>
+        </div>
+      </td>
+
+    </tr>
+  </table>
+
+</div>

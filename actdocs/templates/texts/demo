@@ -1,0 +1,8 @@
+demo page
+
+<h3>NLPW Communities:</h3>
+<ul class="list-group">
+  <li class="list-group-item"><i class="fa fa-home"></i> <a href="http://bitraf.no/">Bitraf</a></li>
+  <li class="list-group-item"><i class="fa fa-home"></i> xyz </li>
+</ul>
+

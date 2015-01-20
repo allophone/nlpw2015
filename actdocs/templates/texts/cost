@@ -1,0 +1,252 @@
+[% IF !cs_processed %][% PROCESS custom/strings %][% END %]
+
+<h3>
+<t><nl>Inschrijfgeld</nl>
+<en>Workshop fee</en></t>
+</h3>
+<div class="contentarea">
+
+<p>
+<t><nl>
+De deelnamekosten zijn:
+</nl><en>
+The workshop fee is:
+</en></t>
+</p>
+
+<table style="font-size:90%; margin-left:2em;">
+  <tr>
+    <td style="vertical-align:top;">&euro;</td>
+    <td style="text-align:right;vertical-align:top;">215</td>
+    <td>
+<t><nl>
+standaard zakelijk tarief
+</nl><en>
+standard corporate rate
+</en></t>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top;">&euro;</td>
+    <td style="text-align:right;vertical-align:top;">80</td>
+    <td>
+<t><nl>
+niet-commerciële deelnemers
+</nl><en>
+non-commercial attendees
+</en></t>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top;">&euro;</td>
+    <td style="text-align:right;vertical-align:top;">0</td>
+    <td>
+<t><nl>
+voor deelnemers met beperkte financiële middelen (graag eerst per email kort reden opgeven aan <a href="mailto:organisatie@perlworkshop.nl">organisatie@perlworkshop.nl</a>, één regel volstaat)
+</nl><en>
+for attendees with limited financial means (please first briefly state a reason by email to <a "mailto:organisatie@perlworkshop.nl">organisatie@perlworkshop.nl</a>, one line is enough)
+</en></t>
+    </td>
+    <td></td>
+  </tr>
+</table>
+
+<p style="font-size:90%;">
+<t><nl>(Deze prijzen zijn inclusief 21% BTW.)</nl>
+<en>(Prices include 21% VAT.)</en></t>
+</p>
+
+<p>
+<t><nl>Uiteraard zijn wij hiernaast dankbaar voor extra </nl>
+<en>Of course we will also appreciate any additional </en></t>
+<a href="sponsoring.html">sponsoring</a>.
+</p>
+
+<p class="space_before_h4" />
+<h4>
+<t><nl>Wat wij hiervoor bieden</nl>
+<en>What you get for this</en></t>
+</h4>
+
+<ul class="ul_nested">
+
+<li>
+<t><nl>
+Een dag van hoogwaardige Perl-gerelateerde presentaties
+</nl><en>
+A full day of high-level Perl-related presentations 
+</en></t>
+</li>
+
+<li>
+<t><nl>
+T-shirt van de Nederlanse Perl-Workshop [% cs_event_year %]
+</nl><en>
+T-shirt of the Dutch Perl Workshop [% cs_event_year %]
+</en></t>
+</li>
+
+<li>
+<t><nl>
+Lunch
+</nl><en>
+Lunch
+</en></t>
+</li>
+
+<li>
+<t><nl>
+Thee, koffie en koekjes gedurende de hele dag
+</nl><en>
+Tea, coffee and cookies all day long
+</en></t>
+</li>
+
+[% IF 0 %]
+<li>
+<t><nl>
+Verse origineel <a href="http://nl.wikipedia.org/wiki/Limburgse_vlaai" target="_blank" class="ext">Limburgse vlaai</a>, special meegebracht door onze sponsor <a href="http://dijkmat.nl" target="_blank" class="ext">Dijkmat</a> uit het zuiden des lands.
+</nl><en>
+Fresh original <a href="http://en.wikipedia.org/wiki/Vlaai" target="_blank" class="ext">Limburgse vlaai</a>, especially brought by our sponsor <a href="http://dijkmat.nl" target="_blank" class="ext">Dijkmat</a> from the South of the Netherlands.
+</en></t>
+</li>
+[% END %]
+
+<li>
+<t><nl>
+Ter afsluting warm en koud buffet in 
+</nl><en>
+At the end of the day warm and cold buffet in
+</en></t>
+<a href="http://www.grandcafelebowski.nl/home/" target="_blank" class="ext">Grand Cafe Lebowski</a>
+</li>
+
+
+</ul>
+
+<p class="space_before_h4" />
+<h4>
+<t><nl>Hoe te betalen</nl>
+<en>How to pay</en></t>
+</h4>
+
+<p>
+<t><nl>
+U kunt naar keuze betalen via bankoverschrijving of per creditcard via ons online-betaalsysteem. (De online-betaling wordt over enkele dagen geactiveerd.)
+</nl><en>
+You are free to pay either by bank transfer or by creditcard using our online payment system. (The online payment function will be activated within a few days.)
+</en></t>
+</p>
+
+<ul class="ul_nested">
+
+<li>
+<t><nl>
+Online-betaling
+</nl><en>
+Online payment
+</en></t>
+  <ul>
+
+    <li>
+<t><nl>
+Let op: de optie voor online betaling is alleen zichtbaar in de toepasselijke omstandigheden, d.w.z. als u ingelogd en voor de workshop ingeschreven bent en nog niet hebt betaald.
+</nl><en>
+Attention: the option for online payment is only visible when applicable, i.e. when you're logged in, registered for the workshop and haven't paid yet.
+</en></t>
+    </li>
+
+    <li>
+<t><nl>
+Als dit allemaal van toepassing is, verschijnt op uw pagina <a href="[% make_uri('main') %]">[% cs_main_private_page %]</a> een link <b>inschrijfgeld online betalen</b>. Als u deze link aanklikt, wordt u door de creditcard-betaling geleid.
+</nl><en>
+If all this is the case, there will be a link <b>purchase your conference ticket online</b> on your page <a href="[% make_uri('main') %]">[% cs_main_private_page %]</a>. If you click this link, you will be guided through the online payment process.
+</en></t>  
+    </li>
+
+    <li>
+<t><nl>
+Na succesvolle online-betaling, wordt dit meteen op uw pagina <a href="[% make_uri('main') %]">[% cs_main_private_page %]</a> weergegeven.
+</nl><en>
+After successfully completing this process, your new payment status will immediately be displayed on your page <a href="[% make_uri('main') %]">[% cs_main_private_page %]</a>.
+</en></t>
+    </li>
+
+  </ul>
+
+</li>
+
+<li>
+<t><nl>
+Bankoverschrijving
+</nl><en>
+Bank transfer
+</en></t>
+  <ul>
+
+    <li>
+<t><nl>
+Maak het geld over naar:
+</nl><en>
+Transfer the money to:
+</en></t>
+<table style="font-size:90%;border-collapse:collapse;" border="1px">
+  <tr>
+    <td><t><nl>Rekening</nl><en>Account no.</en></t></td>
+    <td>Rabobank, <t><nl>rek.nr.</nl><en>Acct. no.</en></t> 32.46.27.238<br/>(IBAN: NL27RABO0324627238) </td>
+  </tr>
+  <tr>
+    <td><t><nl>t.n.v.</nl><en>Account name</en></t></td>
+    <td>Stichting Perl Promotie Nederland</td>
+  </tr>
+  <tr>
+    <td><t><nl>te</nl><en>Place</en></t></td>
+    <td>Beverwijk</td>
+  </tr>
+  <tr>
+    <td><t><nl>Omschrijving</nl><en>Description</en></t></td>
+    <td>
+    NLPW[% cs_event_year %] 
+    <t><nl>
+    &lt;achternaam&gt; &lt;voornaam&gt;<br/>
+    (of dergelijke omschrijving die duidelijk is in uw situatie)
+    </nl><en>
+    &lt;last name&gt; &lt;first name&gt;<br/>
+    (or similar description that makes sense in your case)
+    </en></t>
+    </td>
+  </tr>
+</table>
+<p style="margin:0 0 8px 0;"></p>
+
+    </li>
+    <li>
+<t><nl>
+Uw betalingsstatus wordt op uw pagina <a href="[% make_uri('main') %]">[% cs_main_private_page %]</a> zichtbaar, zodra onze penningmeester de betaling heeft gezien en in het systeem heeft ingevoerd.
+</nl><en>
+Your payment status will show up on your page <a href="[% make_uri('main') %]">[% cs_main_private_page %]</a> once our treasurer has seen the payment and entered it into the system.
+</en></t>
+    </li>
+
+  </ul>
+
+</li>
+
+</ul>
+
+<p class="space_before_h4" />
+<h4>
+<t><nl>Factuur</nl>
+<en>Invoice</en></t>
+</h4>
+
+<p>
+<t><nl>
+Uw betalingsstatus verschijnt op uw pagina <a href="[% make_uri('main') %]">[% cs_main_private_page %]</a>. Indien van toepassing bevat deze ook een link naar een factuurpagina. Bovenaan de factuurpagina vindt u ook een link naar een afdrukvriendelijke versie van de factuur (zonder achtergrond en menu's van deze site) die u zelf kunt afdrukken.
+</nl><en>
+Your payment status will show up on your page <a href="[% make_uri('main') %]">[% cs_main_private_page %]</a>. If applicable this will include a link to an invoice page. At the top of the invoice page you will also find a link to a print-friendly version of the invoice (without the site background and menus) which you can print out yourself.
+</en></t>
+ 
+</p>
+
+</div>

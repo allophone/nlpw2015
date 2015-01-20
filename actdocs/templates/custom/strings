@@ -1,0 +1,149 @@
+[%#
+  Define a few custom strings depending on language,
+  either to use instead of strings of default ACT strings
+  or as a convenience.
+  use fixed prefixes to prevent name collisions
+    cs_    (=custom string) as a shorter prefix
+    nlpw_                   as a longer prefix
+%]
+
+[% IF global.request.language == 'nl' %]
+  [%
+    cs_event_date_year   = '10 april 2015'
+    cs_event_date        = '10 april'
+    cs_event_dow         = 'vrijdag'
+    cs_event_dow_short   = 'Vr'
+    cs_event_start_hr    = '9'
+    cs_event_start_min   = '00'
+    cs_event_end_hr      = '18'
+    cs_event_end_min     = '00'
+    cs_event_start_ampm  = ''
+    cs_event_end_ampm    = ''
+
+    cs_usermenu          = 'Account'
+    cs_edit_profile      = 'Instellingen'
+    cs_view_profile      = 'Bekijk je profiel'
+    cs_workshop_reg      = 'Workshop-inschrijving'
+    cs_main_private_page        = 'Account-instellingen'
+    cs_main_private_page_title  = 'Account-instellingen - workshop-deelname en gebruikers-info'
+    cs_goto              = 'Ga naar...'
+    cs_home              = 'Startpagina'
+    cs_de                = 'de'
+    cs_het               = 'het'
+    
+    cs_dec_sep           = ','
+  %]
+[% ELSE %]
+  [%
+    cs_event_date_year   = '10th of April 2015'
+    cs_event_date        = 'April 10th'
+    cs_event_dow         = 'Friday'
+    cs_event_dow_short   = 'Fri'
+    cs_event_start_hr    = '9'
+    cs_event_start_min   = '00'
+    cs_event_end_hr      = '6'
+    cs_event_end_min     = '00'
+    cs_event_start_ampm  = ' AM'
+    cs_event_end_ampm    = ' PM'
+
+    cs_usermenu     = 'Account'
+    cs_edit_profile = 'Settings'
+    cs_view_profile = 'View your profile'
+    cs_workshop_reg = 'Workshop registration'
+    cs_main_private_page        = 'Account settings'
+    cs_main_private_page_title  = 'Account settings - workshop participation and user info'
+    cs_goto              = 'Go to...'
+    cs_home              = 'Home'
+    cs_de                = 'the'
+    cs_het               = 'the'
+    
+    cs_dec_sep           = '.'
+  %]
+[% END %]
+
+[%# page labels %]
+
+[% IF global.request.language == 'nl' %]
+  [% cs_page_titles = {
+    sponsors             => 'Onze sponsors'   ,
+    search               => 'Wie komen er?'  ,   
+    venue                => 'De locatie'   ,
+    accommodation        => 'Overnachting'   ,
+    registration_info    => 'Workshop-inschrijving'   , 
+    cost                 => 'Kosten en betaling'   ,
+    speakers             => 'Presentaties voorstellen'   ,
+    language             => 'Voertaal'   ,
+    sponsoring           => 'Sponsor worden'   ,
+    conferences_nl       => 'Eerdere NL-workshops'   ,
+    conferences_curr     => 'Actuele Perl-workshops'   ,
+    library              => 'Unieke Perl-bibliotheek'   ,
+    contact              => 'Contact'   ,
+  } %]
+[% ELSE %]
+  [% cs_page_titles = {
+    sponsors             => 'Our sponsors'   ,
+    search               => 'Who\'s coming?'  ,   
+    venue                => 'Venue'   ,
+    accommodation        => 'Accommodation'   ,
+    registration_info    => 'Workshop registration'   ,
+    cost                 => 'Cost and payment'   ,
+    speakers             => 'Proposing talks'   ,
+    language             => 'Workshop language'   ,
+    sponsoring           => 'Becoming a sponsor'   ,
+    conferences_nl       => 'Previous NL-workshops'   ,
+    conferences_curr     => 'Current Perl workshops'   ,
+    library              => 'Unique Perl library'   ,
+    contact              => 'Contact'   ,
+  } %]
+[% END %]
+
+[% cs_page_url = {
+    sponsors             => 'sponsors.html' ,
+    search               => 'search?name='  ,   
+    venue                => 'venue.html',
+    accommodation        => 'accommodation.html',
+    registration_info    => 'registration_info.html',
+    cost                 => 'cost.html',
+    speakers             => 'speakers.html',
+    language             => 'language.html',
+    sponsoring           => 'sponsoring.html',
+    conferences_nl       => 'conferences_nl.html',
+    conferences_curr     => 'conferences_curr.html',
+    library              => 'library.html',
+    contact              => 'contact.html',
+} %]
+
+[% cs_pages =
+  [
+    'sponsors' ,
+    'search'        ,
+    'venue'               ,
+    'accommodation'       ,
+    'registration_info'   ,
+    'cost',
+    'speakers' ,
+    'language' ,
+    'sponsoring' ,
+    'conferences_nl' ,
+    'library' ,
+    'contact' ,
+  ]
+%]
+
+[%# language-independent %]
+  [%
+    cs_home_link         = "/$global.request.conference/"
+    cs_event_year        = '2015'
+
+    cs_loc_name          = 'Universiteit voor Humanistiek'
+    cs_loc_city          = 'Utrecht'
+    cs_loc_article       = "$cs_de"
+
+    cs_loc_line1         = "$cs_loc_name"
+    cs_loc_line2         = 'Kromme Nieuwegracht 29'
+    cs_loc_line3         = '3512 HD Utrecht'
+    
+    cs_video_link        = '#'
+  %]
+
+[% cs_processed=1 %]

@@ -1,0 +1,85 @@
+[% IF !cs_processed %][% PROCESS custom/strings %][% END %]
+  <h2>
+<t><nl>
+Over de workshop-inschrijving
+</nl><en>
+About workshop registration
+</en></t>
+  </h2>
+  
+    <p>
+<t><nl>
+Onderstaand ziet u hoe u zich voor deze workshop inschrijft. Daarna dient u ook nog het inschrijfgeld te betalen, maar dat is een aparte stap, zie daarvoor: <a href="cost.html">Kosten en betaling</a>.
+</nl><en>
+Below you find instructions for registering for the workshop. Afterwards you will also have to pay the workshop fee, but that is a separate step, see: <a href="cost.html">Cost and payment</a>.
+</en></t>
+    </p>
+
+<p class="space_before_h4"/>
+<h3>
+<t><nl>
+Hoe inschrijven?
+</nl><en>
+How to register?
+</en></t>
+</h3>
+
+<p>
+<t><nl>Deze site werkt met het conferentiebeheersysteem <a href="http://act.mongueurs.net/" target="_blank" class="ext">ACT</a>. De manier van inschrijven hangt ervan af of u dit systeem al eens eerder heeft gebruikt:</nl>
+<en>This site uses the conference toolkit <a href="http://act.mongueurs.net/" target="_blank" class="ext">ACT</a>. Your way of registering depends on whether you have used this system before:</en></t>
+</p>
+<table style="margin-left:1em;border-style:none;">
+  <tr><td colspan="3" style="height:0.5;"></td></tr>
+  <tr>
+    <td colspan="2">
+<t><nl>Voor wie ACT nog niet kent:</nl>
+<en>For those who don't know ACT yet:</en></t>
+    </td>
+    <td>&rarr;</td>
+    <td>
+      <a href="registration_detailed.html">
+<t><nl>Workshop-inschrijving met uitleg</nl>
+<en>Workshop registration with explanation</en></t>
+      </a>
+    </td>
+  </tr>
+  <tr><td colspan="3" style="height:0.5;"></td></tr>
+  <tr>
+    <td colspan="2">
+<t><nl>Voor wie ACT al kent...</nl>
+<en>For those who know ACT already...</en></t>
+    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>
+<t><nl>... maar nog geen ACT-account heeft:</nl>
+<en>... but don't have an ACT account yet:</en></t>
+
+    </td>
+    <td>&rarr;</td>
+    <td>
+      <a href="
+        [% IF !global.request.user %]
+          [% make_uri('register') %]
+        [% ELSE %]
+          registration_detailed.html
+        [% END %]
+        ">
+<t><nl>Inschrijven Nieuwe Gebruiker</nl>
+<en>Register as New User</en></t>
+        </a>
+    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>
+<t><nl>... en ook al een ACT-account heeft:</nl>
+<en>... and also have an ACT account:</en></t>
+    </td>
+    <td>&rarr;</td>
+    <td>
+<a href="[% make_uri('main') %]">[% cs_main_private_page %]</a>
+    </td>
+  </tr>
+</table>

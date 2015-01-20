@@ -1,0 +1,31 @@
+<h4>
+<t><nl>Recent nieuws:</nl>
+<en>Recent nieuws:</en></t>
+</h4>
+
+[% IF global.news.size %]
+  [% i=1 %]
+  <ul>
+    [% FOREACH n = global.news %]
+      <li>
+        [% date_format(n.datetime, '%Y-%m-%d') %]: 
+        <a href="[% n.link %]">
+          [% FILTER html %][% n.title %][% END %]
+        </a>
+      </li>
+      [% LAST IF i>=5 %]
+      [% i=i+1 %]
+    [% END %]
+  </ul>
+
+[% ELSE %]
+  <p>{{No news yet!}}</p>
+[% END %]
+
+<p style="font-size:90%;text-align:right;font-style:italic;">
+&rarr;
+<a href="[% make_uri('news') %]">
+<t><nl>Lees alle nieuws</nl>
+<en>Read all news</en></t></a>
+</p>
+

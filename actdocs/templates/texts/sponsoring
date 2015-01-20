@@ -1,0 +1,204 @@
+[% nlpw_flag_page = 'sponsoring' %]
+
+<h2>
+<t><nl>De workshop sponsoren</nl>
+<en>Sponsoring the workshop</en></t>
+</h2>
+<div class="contentarea">
+
+<p>
+<t><nl>
+We proberen de kosten van Perl-workshops voor de deelnemers zo laag
+mogelijk te houden, en sponsoring levert daar een grote bijdrage
+aan. Hieronder ziet u de diverse sponsor-pakketten en wat u daarvoor
+terug kunt verwachten.
+</nl><en>
+We try to keep the cost of Perl workshops low for participants, and sponsoring is of great help towards this aim. Below you'll find the various sponsoring packages and what you can expect to receive in return.
+</en></t>
+</p>
+
+<p class="space_before_h4" />
+<h3>
+<t><nl>
+Uw link en logo prominent geplaatst, stand en advertentieruimte
+</nl><en>
+Your link and logo prominently displayed, a stand and advertising space
+</en></t>
+</h3>
+
+<p>
+<t><nl>
+Voor alle sponsors geldt dat ze prominent op alle pagina's aanwezig
+zullen zijn en dat er ruimte op de <a href="[% make_uri('sponsors.html') %]">sponsors-pagina</a> is om zichzelf te presenteren. Op de dag zelf mag u uzelf, of uw bedrijf, presenteren en daarvoor een stand (van redelijke afmeting) meebrengen en inrichten, maar neem daarvoor per email contact op met de <a
+href="mailto:organisatie@perlworkshop.nl">organisatie@perlworkshop.nl</a>. In het programmaboekje krijgt u een hele of
+halve pagina de ruimte als advertorial en de nodige full-colour
+advertentie elders. Alle andere zaken, zoals de zo gewenste
+'goodie-bag', moeten nog verder besproken worden.
+</p><p>
+Als u de Perl-gemeenschap een warm hart toedraagt, dan is dit de kans om uw zichtbaarheid bij Perl-gebruikers te vergroten!
+</nl><en>
+All sponsors will be displayed prominently on all pages and receive space to present themselves on our <a href="[% make_uri('sponsors.html') %]">sponsors page</a>. On the day itself you can present yourself, or your company, and you can bring and set up a stand (of reasonable size), but in this case please contact us by email to <a
+href="mailto:organisatie@perlworkshop.nl">organisatie@perlworkshop.nl</a>. In the programme folder you will receive at least half a page for an advertorial and a full-colour advertisement in another place. All other possibilities, such as the much desired 'goodie-bag', are yet to be discussed.
+</p><p>
+If the Perl community is dear to you, this is your chance to increase your visibility among Perl users!
+</en></t>
+</p>
+
+<p class="space_before_h4" />
+<h3>
+<t><nl>
+Belangstelling?
+</nl><en>
+Interested?
+</en></t>
+</h3>
+
+<p>
+<t><nl>
+Contacteer ons dan via: 
+</nl><en>
+Then contact us at:
+</en></t>
+  <a href="mailto:organisatie@perlworkshop.nl">organisatie@perlworkshop.nl</a>
+  </p>
+
+<p style="height:1em;"/>
+<h2>
+<t><nl>De sponsoring-pakketten</nl>
+<en>The sponsoring packages</en></t>
+</h2>
+
+<p class="space_before_h4" />
+<h3>
+<t><nl>
+Platina-sponsoring
+</nl><en>
+Platinum sponsoring
+</en></t>
+</h3>
+
+<p>
+<t><nl>
+Gedurende de dag wordt er veel gewerkt en veel Perl-code bestudeerd. Daarom wordt er ruim gelegenheid gegeven om uitgebreid te lunchen. De deelnemers zullen erg erkentelijk zijn voor uw bijdrage die deze lunch volledig mogelijk maakt. Bij goed weer zal er mogelijk in de binnentuin of slenterend langs de Utrechtse grachten gegeten worden en krijgen de deelnemers een lunchpakket mee… - uw lunchpakket? 
+</nl><en>
+During the whole day, people rack their brains and study a lot of Perl code. That's why we provide ample opportunity for a copious lunch. The attendees will feel grateful for your contribution towards making this lunch possible. With good weather we might have lunch in the garden or strolling along the Utrecht canals and the attendees will receive a lunch package… - your lunch package?
+</en></t>
+</p>
+
+<ul style="margin:1em 0 0 2em;">
+<t><nl>
+  <li>Uw bijdrage: €1.150 voor de uitgebreide lunch</li>
+  <li>U ontvangt: 3 toegangskaarten à €215</li>
+  <li>In programmaboekje op achterkaft, buitenzijde, full-colour</li>
+  <li>Advertorial 1 pagina.</li>
+</nl><en>
+  <li>Your contribution: €1,150 for the copious lunch</li>
+  <li>You receive: 3 workshop tickets, each worth €215</li>
+  <li>In programme folder on outside back cover, full-colour</li>
+  <li>Advertorial, 1 page.</li>
+</en></t>
+</ul>
+
+<p class="space_before_h4" />
+<h3>
+<t><nl>
+Goud-sponsoring
+</nl><en>
+Gold sponsoring
+</en></t>
+</h3>
+
+<p>
+<t><nl>
+Aan het eind van de dag worden alle deelnemers verwacht in <a href="http://www.grandcafelebowski.nl/home/" target="_blank" class="ext">Grand Cafe Lebowski</a> voor een zeer gevariëerd warm- en koudbuffet. Wij zullen er voor zorgen dat beide 'goud-sponsors' ruim aandacht krijgen tijdens het gezellig napraten.
+</nl><en>
+At the end of the day all attendees are invited to come to <a href="http://www.grandcafelebowski.nl/home/" target="_blank" class="ext">Grand Cafe Lebowski</a> for a rich warm and cold buffet. We will make sure that both 'Gold sponsors' will be given plenty of attention during our socializing event.
+</en></t>
+</p>
+
+<ul style="margin:1em 0 0 2em;">
+<t><nl>
+  <li>Uw bijdrage: €775 voor de helft van het warm- en koudbuffet</li>
+  <li>U ontvangt: 2 toegangskaarten à €215</li>
+  <li>In programmaboekje op voorkaft, binnenzijde, full-colour</li>
+  <li>Advertorial 1 pagina.</li>
+</nl><en>
+  <li>Your contribution: €775 for one half of the warm and cold buffet</li>
+  <li>You receive: 2 workshop tickets, each worth €215</li>
+  <li>In programme folder on inside front cover, full-colour</li>
+  <li>Advertorial, 1 page.</li>
+</en></t>
+</ul>
+
+
+<p class="space_before_h4" />
+<h3>
+<t><nl>
+Zilver-sponsoring
+</nl><en>
+Silver sponsoring
+</en></t>
+</h3>
+
+<p>
+<t><nl>
+Wat is een Perl-workshop zonder koffie, koffie en nog eens koffie.
+Thee of andere dranken zullen er ook zijn en natuurlijk wat
+versnaperingen. Onze drie 'zilver-sponsors' maken dit mogelijk en
+zorgen dat de deelnemers scherp en alert blijven gedurende de
+dag.
+</nl><en>
+What's a Perl workshop without coffee, coffee and more coffee. Tea and other beverages will be available and of course snacks. Our three 'silver sponsors' make this possible en ensure that the attendees stay lucid and alert for the whole day.
+</en></t>
+</p>
+
+<ul style="margin:1em 0 0 2em;">
+<t><nl>
+  <li>Uw bijdrage: €425 voor de koffiepauzes gedurende het programma</li>
+  <li>U ontvangt: 1 toegangskaart à €215</li>
+  <li>Volledige pagina advertentie, full-colour</li>
+  <li>Advertorial ½ pagina.</li>
+</nl><en>
+  <li>Your contribution: €425 for the coffee breaks during the programme</li>
+  <li>You receive: 1 workshop ticket worth €215</li>
+  <li>Full-page advertisement, full-colour</li>
+  <li>Advertorial, ½ page.</li>
+</en></t>
+</ul>
+
+<p class="space_before_h4" />
+<h3>
+<t><nl>
+Brons-sponsoring
+</nl><en>
+Bronze sponsoring
+</en></t>
+</h3>
+
+<p>
+<t><nl>
+Onderaan als laatste in de lijst staan als 'brons-sponsor' heeft ook
+zijn voordelen. Het buffet in het <a href="http://www.grandcafelebowski.nl/home/" target="_blank" class="ext">Grand Cafe Lebowski</a> wordt feestelijk afgesloten met een bijzonder dessert. Een dessert dat alléén mogelijk is dankzij de sponsors, reden waarom hun namen als laatste nog eens gepresenteerd worden.
+</nl><en>
+The lowest sponsorship rank of a 'bronze sponsor' also has its benefits. The buffet in <a href="http://www.grandcafelebowski.nl/home/" target="_blank" class="ext">Grand Cafe Lebowski</a> will be finished in style with a special dessert. A dessert that is only possible thanks to the sponsors, whose names will be presented once more at the end.
+</en></t>
+</p>
+
+<ul style="margin:1em 0 0 2em;">
+</ul>
+
+</div>
+
+<ul style="margin:1em 0 0 2em;">
+<t><nl>
+  <li>Uw bijdrage: €150  voor een deel van het afsluitende dessert</li>
+  <li>U ontvangt: Géén toegangskaarten</li>
+  <li>Programmaboekje: Halve pagina advertentie, full-colour</li>
+  <li>Advertorial ½ pagina.</li>
+</nl><en>
+  <li>Your contribution: €150 for a share of the final dessert</li>
+  <li>You receive: no workshop tickets</li>
+  <li>Half-page advertisement, full-colour</li>
+  <li>Advertorial, ½ page.</li>
+</en></t>
+</ul>

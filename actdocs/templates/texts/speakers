@@ -1,0 +1,101 @@
+[% IF !cs_processed %][% PROCESS custom/strings %][% END %]
+  <h3>
+<t><nl>
+Meld je aan als spreker
+</nl><en>
+Submit your talk
+</en></t>
+  </h3>
+  <div class="contentarea">
+    <p>
+<t><nl>
+Zonder presentaties geen workshop - dus doe je iets bijzonders met Perl dat je wilt presenteren of heb je een project waarvoor je graag feedback van een groot aantal deskundige Perl-gebruikers zou willen ontvangen, dan is dit een uitstekende kans.
+</nl><en>
+No workshop without presentations - so, if you do something special with Perl that you would like to present or you have a project that you would like to get feedback on from highly experienced Perl users, this is a great opportunity.
+</en></t>
+    </p>
+    <div style="height:0.3em;"></div>
+    <h4>
+<t><nl>
+40, 20 of slechts 5 min.
+</nl><en>
+40, 20 or just 5 min.
+</en></t>
+    </h4>
+    <p>
+<t><nl>
+Voor een uitgebreid onderwerp zijn er 40 min. spreektijd beschikbaar, maar je kunt ook kortere praatjes van 20 min. of zelf lightning talks van maar 5 min. indienen.
+</nl><en>
+For more extensive topics there will be 40 min. speaking time available, but you can also submit shorter talks of 20 min. and lightning talks of only 5 min.
+</en></t>
+    </p>
+
+    <div style="height:0.3em;"></div>
+    <h4>
+<t><nl>
+Hoe indienen?
+</nl><en>
+How to submit a talk?
+</en></t>
+    </h4>
+    <p>
+<t><nl>
+Je vindt een link <b>{{Submit a talk proposal}}</b> op verschillende plaatsen:
+</nl><en>
+You find the link <b>{{Submit a talk proposal}}</b> in several places:
+</en></t>
+    </p>
+      <ul class="maintext">
+        <li>
+<t><nl>
+In het menu:
+</nl><en>
+In the menu:
+</en></t>
+           <b>{{Presentations}}/{{Submit a talk proposal}}</b>
+        </li>
+        <li>
+<t><nl>
+Op je pagina 
+</nl><en>
+On your page 
+</en></t>
+<i>[% cs_main_private_page %]</i> (<b>[% cs_usermenu %]/[% cs_edit_profile %]</b>)
+        </li>
+        <li>
+<t><nl>
+Of meteen hier:
+</nl><en>
+Or right here:
+</en></t>
+          <a href="[% make_uri('newtalk') %]">
+            {{Submit a talk proposal}}
+          </a>
+
+        </li>
+      </ul>
+
+    <p>
+<t><nl>
+We zullen dan enkele weken voor de workshop uit het aanbod een programma samenstellen.
+</nl><en>
+A few weeks before the workshop, we'll put together a program from all talks submitted.
+</en></t>
+    </p>
+    <div style="height:0.3em;"></div>
+    <h4>
+<t><nl>
+Hoe eerder, hoe beter
+</nl><en>
+The earlier, the better
+</en></t>
+    </h4>
+    <p>
+<t><nl>
+Wie zijn presentatie eerder aanmeldt heeft natuurlijk een streepje voor als het programma volloopt, en andere bezoekers vinden het ook prettig om vroegtijdig al een kijkje te kunnen nemen.
+</nl><en>
+If a talk is submitted early, it has of course better chances if the program is getting full, and other visitors will probably also appreciate it if they can get a preview of the talks on offer early on.
+</en></t>
+    </p>
+
+  </div>

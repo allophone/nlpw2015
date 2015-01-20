@@ -1,0 +1,217 @@
+
+<div id="reginfo_newuser">
+  <h2>
+    [% nlpw_reginfo_title %]
+  </h2>
+  <h4>
+<t><nl>(voor niet-ingelogde gebruiker)</nl>
+<en>(for a user who is not logged in)</en></t>
+  </h4>
+
+  <p>
+<t><nl>
+Aangezien u niet ingelogd bent, wordt informatie voor gebruikers getoond van wie niet bekend is of ze al een Perl-workshop-account hebben.
+  </p><p>
+Als u nooit eerder op een Perl-workshop bent geweest, klikt u in ieder geval op <a href="[% make_uri('register') %]">Inschrijven Nieuwe Gebruiker</a> en volgt de aanwijzingen. U schrijft zich daardoor voor deze workshop in en maakt een nieuw Perl-workshop-account aan.
+  </p><p>
+Maar wie al eerder op een Perl-workshop is geweest heeft waarschijnlijk al een account, omdat deze en veel andere Perl-workshops met hetzelfde <a href="http://act.mongueurs.net" target="_blank" class="ext">conferentiebeheersysteem ACT</a> werken. Het verdient dan sterk aanbeveling dat bestaande account ook nu weer te gebruiken. (<i>Dat bespaart u typewerk en zorgt dat anderen u terug kunnen vinden.</i>) De Nederlandse Perl-workshops gebruiken deze accounts trouwens sinds 2009.
+  </p><p>
+Kies daarom uw tak:
+  </p>
+</nl><en>
+Since you're not logged in, you are shown information for users that may or may not already have a Perl workshop account.
+  </p><p>
+If you've never been to a Perl workshop before, you can just click <a href="[% make_uri('register') %]">Register as New User</a> and follow the instructions. This will register you for this workshop and also create a new Perl workshop account for you.
+  </p><p>
+However, anybody who has been to another Perl-workshop before probably has an account already, as this and many other Perl workshops use the same <a href="http://act.mongueurs.net" target="_blank" class="ext">conference toolkit ACT</a>. In that case it's highly recommended to use this same account. (<i>Saves you typing and allows others to find you again.</i>) The Dutch Perl workshops have used these accounts since 2009.
+  </p><p>
+So choose your branch:
+  </p>
+</en></t>
+  <div id="regflow">
+
+    <table style='
+      border-spacing:0px;
+      border-collapse:separate;
+    
+      ' border="0" cellspacing='0'>
+      <tr>
+        <td style="
+          padding:0px 0px 0px 0px;
+          background-image:url('img/flow/flow_top.png');
+          width: 585px;
+          height:157px;
+        ">
+        </td>
+      </tr>
+      <tr>
+        <td style="
+          padding:0px 0px 0px 0px;
+          background-image:url('img/flow/flow_mid.png');
+          height: 210px;
+          ">
+        </td>
+      </tr>
+      <tr>
+        <td style="
+          padding:0px 0px 0px 0px;
+          background-image:url('img/flow/flow_btm.png');
+          height:27px;
+        ">
+        </td>
+      </tr>
+    </table>  
+
+<!-- content in decision oval -->
+    <div class="reg_oval_content" style="
+      position:absolute;
+    top :   15px;
+      left:  130px;
+      width: 320px;
+      height: 50px;
+      border-style:dotted;
+      border-width:0px;
+      text-align:center;
+      "
+    >
+  <b>
+<t><nl>U heeft al een account?</nl>
+<en>You already have an account?</en></t>
+  </b><br/>
+  <span style='font-size:90%'>
+<t><nl>(van een andere door u bezochte Perl-workshop in Nederland of elders)</nl>
+<en>(from another Perl workshop<br>in the Netherlands or elsewhere)</en></t>
+  </span>
+    </div> <!-- end of reg_oval_content -->
+    <p style="
+      position:absolute;
+      top:    80px;
+      left:  190px;
+      ">
+    <t><nl>Ja</nl><en>Yes</en></t>
+    </p>
+  
+    <p style="
+      position:absolute;
+      top:    80px;
+      left:  380px;
+      ">
+    <t><nl>Nee</nl><en>No</en></t>
+    </p>
+  
+  
+  <!-- explanation for users with pre-existing account -->
+  
+    <div class="reg_expl_old" style="
+      position:absolute;
+      top:   150px;
+      left:  12px;
+      width: 242px;
+      height:300px;
+      border-style:dotted;
+      border-width:0px;
+      "
+    >
+  <i>
+<t><nl>Bestaand account:</nl>
+<en>An existing account:</en></t>
+  </i><br/>
+  <p>
+<t><nl>U schrijft zich in door een instelling onder <i>[% cs_main_private_page %]</i>.</nl>
+<en>You register by making a setting under <i>[% cs_main_private_page %]</i>.</en></t>
+  </p>
+      <ul>
+        <li>
+<t><nl><a href="[% make_uri('main') %]">Log eerst in</a> met uw bestaande gebruikersnaam en wachtwoord (indien vergeten: <a href="[% make_uri('changepwd') %]">zie hier</a>).</nl>
+<en>First <a href='main'>log in</a> with your existing login name and password (if you forgot: <a href="[% make_uri('changepwd') %]">see here</a>).</en></t>
+  
+  
+        </li>
+        <li>
+<t><nl>Na het inloggen komt u vanzelf op de pagina <i>[% cs_main_private_page %]</i>. U kunt er ook later met <b>[% cs_usermenu %]/[% cs_edit_profile %]</b> via het menu terugkomen.</nl>
+<en>After logging in, you are automa-<br>tically taken to the page <i>[% cs_main_private_page %]</i>. You can also get there later by <b>[% cs_usermenu %]/[% cs_edit_profile %]</b> in the menu.</en></t>
+        </li>
+        <li>
+<t><nl>Daar klikt u op: <b>inschrijven</b></nl>
+<en>There you click on: <b>register</b></en></t>
+        </li>
+      </ul>
+    </div> <!-- end of reg_expl_old -->
+    
+  <!-- explanation for users w/o pre-existing account -->
+  
+    <div class="reg_expl_new" style="
+      position:absolute;
+      top: 150px;
+      left:335px;
+      width:232px;
+      height:300px;
+      border-style:dotted;
+      border-width:0px;
+      "
+    >
+  <i>
+<t><nl>Geen bestaand account - klik hier:</nl>
+<en>No existing account - click here:</en></t>
+  </i><br/>
+  <div style="width:100px;margin-left:<t><nl>13</nl><en>34</en></t>px;margin-top:5px;margin-bottom:5px;">
+    <a href="[% make_uri('register') %]">
+    <form> <input style="font-size:10pt;" type="button" value="<t><nl>Inschrijven Nieuwe Gebruiker</nl><en>Register as New User&nbsp;&nbsp;&nbsp;</en></t>" /> </form>
+    </a>
+  </div>
+  <p>
+<t><nl>U doorloopt dan het registratie-<br/>proces voor nieuwe gebruikers waardoor u zich tegelijk voor de workshop inschrijft en een account aanmaakt.</nl>
+<en>You are then taken through the registration process for new users which will both register you for the workshop and create an account for you.</en></t>
+  </p>
+      <ul>
+        <li>
+<t><nl>U wordt in een aantal dialogen met aanwijzingen door het proces geleid.</nl>
+<en>The process consists of a number of steps with on-screen instructions.</en></t>
+  
+        </li>
+        <li>
+<t><nl>Voor de overzichtelijkheid kunt u in de onderstaande beschrijving alvast kijken welke stappen volgen.
+</nl><en>If for clarity you prefer to know ahead of time what steps to expect, check the list of steps below.</en></t>
+        </li>
+      </ul>
+    </div> <!-- end of reg_expl_new -->
+  
+  </div> <!-- end of regflow -->
+  
+  <a name='steps'></a>
+  <div class="regflowsteps">
+    <h4>
+<t><nl>Beschrijving van de stappen van het registratieproces voor nieuwe gebruikers:</nl>
+<en>List of steps in the registration process for new users:</en></t>
+    </h4>
+    <p style="font-size:90%">
+<t><nl>(Alleen als extra informatie - u kunt gewoon de aanwijzingen op het scherm opvolgen)
+</nl><en>(Just as extra information - you can simply follow the on-screen instructions)</en></t>
+    </p>
+    <ul>
+      <li>
+<t><nl>In het eerste scherm voert u een email-adres voor de registratie in.</nl>
+<en>In the first screen you enter an email address for the registration.</en></t>
+      </li>
+      <li>
+<t><nl>U ontvangt een email met een bevestigingslink - open die link in de browser.</nl>
+<en>You receive an email with a confirmation link - open that link in your browser.</en></t>
+      </li>
+      <li>
+<t><nl>In het dan verschijnende scherm vult u een aantal basisgegevens voor uw account in (loginnaam, voornaam, achternaam, email, land, T-shirt-maat) en bevestigt. (Al deze gegevens <i>behalve de loginnaam</i> kunnen achteraf nog gewijzigd worden.)</nl>
+<en>You are then presented with a dialog where you fill in some basic data for your account (login name, first name, surname, email, country, T-shirt size) and confirm. (All these data <i>except your login name</i> can be changed later on.)</en></t>
+      </li>
+      <li>
+<t><nl>U krijgt het bericht dat de registratie voltooid is, waarbij ook het voor u gegenereerde wachtwoord wordt vermeld. Onthoud dit wachtwoord - of wijzig het meteen met de link onderaan de pagina <i>[% cs_main_private_page %]</i> (menu: <b>[% "$cs_usermenu/$cs_edit_profile" %]</b>).</nl>
+<en>You receive a message stating that the registration is completed and informing you of the password that has been generated for you. Make sure you remember this password or change it immediately using the link at the bottom of the page <i>[% cs_main_private_page %]</i>.</en></t>
+      </li>
+      <li>
+<t><nl>U bent nu voor de workshop ingeschreven, heeft een account en bent ook meteen al ingelogd.</nl>
+<en>You are now registered for the workshop, have an account and are already logged into this account.</en></t>
+      </li>
+    </ul>
+  </div>  <!-- end of regflowsteps -->
+  
+</div>  <!-- end of reginfo_newuser -->
+  
+<a name='bottom'></a>

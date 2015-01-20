@@ -1,0 +1,17 @@
+[% WRAPPER ui title = global.conference.name %]
+
+  [% PROCESS custom/strings %]
+
+  [% IF global.request.language=='nl' %]
+    [%  nlpw_reginfo_title = "Workshop-inschrijving - met uitleg"  %]
+  [% ELSE %]
+    [%  nlpw_reginfo_title = "Workshop registration - with explanation"  %]
+  [% END %]
+
+  [% IF global.request.user %]
+    [% PROCESS texts/reginfo_logged %]
+  [% ELSE %]
+    [% PROCESS texts/reginfo_notlogged %]
+  [% END %]
+
+[% END %]

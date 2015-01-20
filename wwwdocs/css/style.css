@@ -1,0 +1,267 @@
+@import url(http://fonts.googleapis.com/css?family=Arimo);
+
+/*
+@font-face {
+  font-family: nlpwbold;
+  src: url(../fonts/code_bold.otf);
+}
+@font-face{
+  font-family: nlpwlight;
+  src: url(../fonts/code_light.otf)
+}
+*/
+
+
+body {
+    font-family: "Arimo", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #fafafa;
+}
+
+@media(max-width:767px) {
+  .pattern {
+      padding-top: 30px !important;
+  }
+
+  .pattern h1 {
+      font-size: 50px !important;
+  }
+
+  .pattern .dates {
+      font-size: 24px !important;
+  }
+}
+
+.navbar-brand {
+  font-size: 1.2em;
+  font-weight: normal;
+}
+/*.with-banner .navbar-brand {
+    display: none;
+}*/
+
+.navbar-default {
+    border-radius: 0;
+    background-color: #3c3c3b;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 1px solid #fe5500;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a,
+.dropdown-menu>li>a,
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar{
+    background-color: #3c3c3b;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    background-color: #fe5500;
+    color: #3c3c3b;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+  background-color: #fe5500;
+}
+.navbar-default .dropdown-menu {
+    background-color: #3c3c3b;
+}
+
+.dropdown-menu .divider {
+    background-color: #fe5500;
+}
+
+.pattern {
+	background-color: black;
+ 	background-image: url('/nlpw2015/img/fabric.jpg');
+	background-position: center;
+	background-size: cover;
+	webkit-background-size: cover;
+	moz-background-size: cover;
+	o-background-size: cover;
+	overflow: hidden;
+    width:100%;
+    margin-top:-20px;
+    padding-top:60px;
+    padding-bottom:40px;
+    color: #fff;
+}
+
+.pattern .container {
+    text-align:center;
+}
+
+.pattern .container p.dates {
+   font-size: 36px;
+   color: #fff;
+   margin-top: 30px;
+   margin-bottom: 60px;
+}
+
+.pattern .container h1 {
+   font-size: 68px;
+   color: #fff;
+   font-weight: normal;
+}
+span.nlpworange{
+  color: #fe5500;
+}
+span.nlpwbold{
+  /* font-family: nlpwbold; */
+  font-family: Courier;
+  font-weight: bold;
+}
+span.nlpwlight{
+  /* font-family: nlpwlight; */
+  font-family: Courier;
+  font-weight: normal;
+}
+
+.pg-separator {
+    background-color: #3c3c3b;
+    color: #fff;
+    margin-top:-20px;
+    padding: 65px 15px 40px 15px;
+}
+
+.pg-separator h1 {
+	font-family: Courier;
+	font-weight: bold;
+    font-size: 54px;
+    line-height: 1;
+    margin-top:0;
+    color: white;
+}
+
+.pg-separator p {
+    margin-right: 380px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.main-content {
+    padding-top: 50px;
+}
+
+.event-description {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.event-description h2 {
+    font-weight: normal;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #3c3c3b;
+    color: #000;
+    border-top: 1px solid black;
+    background-color: #fafafa;
+}
+footer .navbar.navbar-default{
+  background-color: #fafafa;
+}
+
+.holder {
+    margin-top: 20px;
+}
+
+.table .act-description label {
+  display: inline;
+}
+.btn-primary{
+  background-color: #fe5500;
+  border-color: black;
+}
+.btn-primary:hover{
+  color: #fe5500;
+  background-color: white;
+  border-color: black;
+}
+a {
+  color: #fe5500;
+}
+
+/* NLPW custom */
+
+#reginfo_newuser p {
+  line-height:normal;
+  margin: 1em 0;
+}
+
+#regflow {
+  position:relative;
+
+  width:585px;
+  height:420px;
+  margin: 0px auto 0px auto;
+  font-family:Verdana;
+  font-size:10pt;
+
+  border-style:dashed;
+  border-width:0px;
+}
+
+.flowtext {
+  font-family:Verdana;
+  font-size:10pt;
+  
+}
+
+#regflow p {
+  margin: 0 0 5px 0;
+  line-height:16px;
+}
+
+#regflow ul {
+  padding: 0px 0px 0px 16px;
+  font-size:80%;
+  list-style-position:outside;
+}
+
+#regflow ul li {
+  margin-bottom:3px;
+}
+
+.regflowsteps {
+}
+
+.regflowsteps ul {
+  position:relative;
+  left:20px;
+  list-style-position:outside;
+}
+
+.regflowsteps ul li {
+  margin-top:5px;
+}

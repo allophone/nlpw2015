@@ -1,0 +1,21 @@
+[% IF !cs_processed %][% PROCESS custom/strings %][% END %]
+
+<h3>
+<t><nl>Video's</nl>
+<en>Videos</en></t>
+</h3>
+<div class="contentarea">
+	<p>
+<t><nl>
+De video's van de workshop-presentaties zijn nu online op perltv.org:
+</nl><en>
+The videos of the workshop talks are now online at perltv.org:
+</en></t>
+  </p><p>
+  <ul class="maintext">
+    <li>
+      <a href="[% cs_video_link %]" target="_blank" class="ext">[% cs_video_link %]</a>
+    </li>
+    
+  </p>
+</div>

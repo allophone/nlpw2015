@@ -1,0 +1,64 @@
+﻿<div class="see_also_external">
+  <h4>
+<t><nl>
+Kijk ook naar...
+</nl><en>
+And also check out...
+</en></t>
+  </h4>
+
+<p style="text-align:left;margin:1em 0;">
+  <a href="https://twitter.com/PerlNL" class="twitter-follow-button" data-show-count="false" data-lang="<t><nl>nl</nl><en>en</en></t>"  data-size="normal">Follow @PerlNL</a>
+</p>
+
+  <div 
+    style="background-image: url('[% make_uri_info('images', 'nlpm-camel.png') %]');"
+  >
+    <div style="height:60px;width:220px;padding:0.5em 0 0 1em;">
+      <a 
+        href="http://perl.nl" 
+        style="color:white;text-decoration:none;" 
+        target="_blank"
+      >
+
+<t><nl>
+      <span style="font-weight:bold;line-height:120%;">
+        Homepage van de<br/>
+          &nbsp;&nbsp;Nederlandse<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;Perl-Mongers
+      </span>
+</nl><en>
+      <span style="font-weight:bold;line-height:120%;">
+        The Dutch<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;Perl Mongers<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Home
+      </span>
+</en></t>
+
+      </a>
+    </div>
+  </div>
+
+  <p style="margin:1em 0 0 0;font-size:80%;">
+  
+<t><nl>
+De wekelijkse Perl-nieuwsbrief
+</nl><en>
+The weekly Perl newsletter
+</en></t>
+  
+  </p>
+  <a 
+    href="http://perlweekly.com/" 
+    target="_blank"
+  >
+    <img 
+      width="180" 
+      height="50" 
+      src="[% make_uri_info('images', 'perl_weekly_234x60.png') %]" 
+      border="0" 
+      alt="Perl Weekly newsletter" 
+    />
+  </a>
+
+</div>

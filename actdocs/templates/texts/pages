@@ -1,0 +1,20 @@
+[% IF !cs_processed %][% PROCESS custom/strings %][% END %]
+<h3>
+<t><nl>
+Pagina's van deze site
+</nl><en>
+Pages of this sites
+</en></t>
+</h3>
+<div class="contentarea">
+
+[% FOREACH page IN cs_pages %]
+  <p>
+    <a href="[% cs_home_link %][% page %].html">
+      [% cs_page_titles.$page %]
+    </a>
+  </p>
+[% END %] 
+
+
+</div>

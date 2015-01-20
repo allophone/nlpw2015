@@ -1,0 +1,127 @@
+[% IF !cs_processed %][% PROCESS custom/strings %][% END %]
+  <h3>
+<t><nl>
+Over de workshop-inschrijving
+</nl><en>
+About workshop registration
+</en></t>
+  </h3>
+  <div class="contentarea">
+    <p>
+<t><nl>
+Ook al maken we de toegang deze keer gratis, toch willen we graag van tevoren een idee krijgen hoeveel mensen we kunnen verwachten. Het is daarom belangrijk dat de deelnemers zich vooraf op deze site inschrijven.
+</nl><en>
+Even though we make the workshop free of charge this year, we would still like to know how many people we can expect. Therefore it's important that participants register on this site in advance.
+</en></t>
+    </p>
+
+    <div style="height:0.3em;"></div>
+    <h4>
+<t><nl>
+Voordelen
+</nl><en>
+Advantages
+</en></t>
+    </h4>
+    <p>
+<t><nl>
+Alleen ingeschreven deelnemers kunnen uitkijken naar:
+</nl><en>
+Only registered attendees can look forward to:
+</en></t>
+      <ul class="maintext">
+        <li>
+<t><nl>
+zekere toegang als het aantal plaatsen op is
+</nl><en>
+guaranteed access if the workshop is getting full
+</en></t>
+        </li>
+        <li>
+<t><nl>
+gratis thee en koffiee en lunchbroodjes
+</nl><en>
+free tea and coffee and free sandwiches for lunch
+</en></t>
+        </li>
+        <li>
+<t><nl>
+het workshop-T-shirt
+</nl><en>
+the workshop T-shirt
+</en></t>
+        </li>
+      </ul>
+    <p>
+<t><nl>
+En alleen ingeschreven deelnemers kunnen op deze site presentaties indienen.
+</nl><en>
+And only registered attendees can submit talks on this site.
+</en></t>
+    </p>
+
+    <div style="height:0.3em;"></div>
+    <h4>
+<t><nl>
+Hoe inschrijven?
+</nl><en>
+How to register?
+</en></t>
+    </h4>
+    </p>
+    <p>
+<t><nl>Deze site werkt met het conferentiebeheersysteem <a href="http://act.mongueurs.net/" target="_" class="ext">ACT</a>. Kies onderstaand de voor jou beste manier om je in te schrijven:</nl>
+<en>This site uses the conference toolkit <a href="http://act.mongueurs.net/" target="_" class="ext">ACT</a>. Choose your way of registering as shown below:</en></t>
+<table style="margin-left:1em;border-style:none;">
+  <tr><td colspan="3" style="height:0.5;"></td></tr>
+  <tr>
+    <td colspan="2">
+<t><nl>Voor wie ACT nog niet kent:</nl>
+<en>For those who don't know ACT yet:</en></t>
+    </td>
+    <td>&rarr; 
+      <a href="registration_detailed.html">
+<t><nl>Workshop-inschrijving met uitleg</nl>
+<en>Workshop registration with explanation</en></t>
+      </a>
+    </td>
+  </tr>
+  <tr><td colspan="3" style="height:0.5;"></td></tr>
+  <tr>
+    <td colspan="2">
+<t><nl>Voor wie ACT al kent...</nl>
+<en>For those who know ACT already...</en></t>
+    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>
+<t><nl>... maar nog geen ACT-account heeft:</nl>
+<en>... but don't have an ACT account yet:</en></t>
+
+    </td>
+    <td>&rarr; 
+      <a href="
+        [% IF !global.request.user %]
+          [% make_uri('register') %]
+        [% ELSE %]
+          registration_detailed.html
+        [% END %]
+        ">
+<t><nl>Inschrijven Nieuwe Gebruiker</nl>
+<en>Register as New User</en></t>
+        </a>
+    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>
+<t><nl>... en ook al een ACT-account heeft:</nl>
+<en>... and also have an ACT account:</en></t>
+    </td>
+    <td>&rarr; 
+<a href="[% make_uri('main') %]">[% cs_main_private_page %]</a>
+    </td>
+  </tr>
+</table>
+  </div>

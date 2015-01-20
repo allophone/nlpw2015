@@ -1,0 +1,55 @@
+<div class="panel panel-default">
+
+<table class="table">
+
+  <thead>
+    <tr>
+      <th><t><nl>Naam / Link</nl><en>Name / Link</en></t></th>
+      <th><t><nl>Prijs (voor 2 nachten)</nl><en>Price (for 2 nights)</en></t></th>
+      <th>Route</th>
+      <th>Pic</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <tr>
+      <td><a href="http://www.havaa-apartments.com/studios-penthouse.html " target="_blank" class="ext">Havaa&nbsp;Apartments&nbsp;(Penthouse)</a></td>
+      <td>€ 198 (max. 3 pers.)</td>
+      <td><a href="https://maps.google.nl/maps?saddr=Korte+Jansstraat+2A,+Neude+Janskerkhof+en+Domplein,+Utrecht&amp;daddr=Kromme+Nieuwegracht+29,+3512+HD+Utrecht&amp;hl=nl&amp;dirflg=w" target="_blank" class="ext">0[% cs_dec_sep %]4&nbsp;km</a></td>
+      <td><a href="[% make_uri_info('img/hotels', 'havaa.jpg') %]"><img src="[% make_uri_info('img/hotels', 'havaa.jpg') %]" height="48" alt="Havaa Apartments"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.hotel26.nl/ " target="_blank" class="ext">Hotel&nbsp;26&nbsp;Apartement</a></td>
+      <td>€ 300 (2 pers.)</td>
+      <td><a href="https://maps.google.nl/maps?saddr=Nieuwegracht+26,+Utrecht&amp;daddr=Kromme+Nieuwegracht+29,+3512+HD+Utrecht&amp;dirflg=w" target="_blank" class="ext">0[% cs_dec_sep %]4&nbsp;km</a></td>
+      <td><a href="[% make_uri_info('img/hotels', 'hotel26.png') %]"><img src="[% make_uri_info('img/hotels', 'hotel26.png') %]" height="48" alt="Hotel26"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.dekameren.nl/ " target="_blank" class="ext">De&nbsp;Kameren</a></td>
+      <td>€ 190 (2 pers.)</td>
+      <td><a href="https://maps.google.nl/maps?saddr=Wijde+Watersteeg+4,+3511+ZJ+Utrecht&amp;daddr=Kromme+Nieuwegracht+29,+3512+HD+Utrecht&amp;dirflg=w" target="_blank" class="ext">1[% cs_dec_sep %]3&nbsp;km</a></td>
+      <td><a href="[% make_uri_info('img/hotels', 'dekameren.jpg') %]"><img src="[% make_uri_info('img/hotels', 'dekameren.jpg') %]" height="48" alt="De Kameren"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="http://bbschoolstraat.nl/ " target="_blank" class="ext">B&nbsp;&&nbsp;B&nbsp;Schoolstraat&nbsp;22</a></td>
+      <td>€ 170 (2 pers.)</td>
+      <td><a href="https://maps.google.nl/maps?saddr=Schoolstraat+22,+Utrecht&amp;daddr=Kromme+Nieuwegracht+29,+3512+HD+Utrecht&amp;dirflg=w" target="_blank" class="ext">0[% cs_dec_sep %]5&nbsp;km</a></td>
+      <td><a href="[% make_uri_info('img/hotels', 'schoolstraat_22.jpg') %]"><img src="[% make_uri_info('img/hotels', 'schoolstraat_22.jpg') %]" height="48" alt="Schoolstraat 22"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.beurshotel.nl/ " target="_blank" class="ext">Economy&nbsp;Hotel</a></td>
+      <td>€ 170 (1 pers.)<br>€ 200 (2 pers.)<br>€ 180 (3 pers.)</td>
+      <td><a href="https://maps.google.nl/maps?saddr=Balijelaan+19,+3521+GJ+Utrecht&amp;daddr=Kromme+Nieuwegracht+29,+3512+HD+Utrecht&amp;dirflg=w" target="_blank" class="ext">2[% cs_dec_sep %]4&nbsp;km</a></td>
+      <td><a href="[% make_uri_info('img/hotels', 'economy-hotel.png') %]"><img src="[% make_uri_info('img/hotels', 'economy-hotel.png') %]" height="48" alt="Economy Hotel"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.oorsprongpark.nl " target="_blank" class="ext">Hotel&nbsp;Oorsprongpark</a></td>
+      <td>€ 120 (1 pers.)<br>€ 154 (1 pers., incl. <t><nl>fiets</nl><en>bike</en></t>!)<br> 
+€ 168 (2 pers.)</td>
+      <td><a href="https://maps.google.nl/maps?saddr=F.C.+Dondersstraat+12,+3572+JH+Utrecht&amp;daddr=Kromme+Nieuwegracht+29,+3512+HD+Utrecht&amp;dirflg=w" target="_blank" class="ext">1[% cs_dec_sep %]3&nbsp;km</a></td>
+      <td><a href="[% make_uri_info('img/hotels', 'oorsprongpark.jpg') %]"><img src="[% make_uri_info('img/hotels', 'oorsprongpark.jpg') %]" height="48" alt="Hotel Oorsprongpark"/></a></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
