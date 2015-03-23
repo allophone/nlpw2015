@@ -11,7 +11,8 @@
     <tr>
       <td>
         <a href="http://www.booking.com" target="_blank">
-          <img src="[% make_uri_info('img/logos', 'booking.png') %]" alt="Booking . com" width="160px" />
+          <img src="[% make_uri_info('img/logos', 'booking.png') %]"
+            alt="Booking . com" width="160px" />
         </a>
       </td>
       <td>
@@ -33,7 +34,8 @@
     <tr>
       <td>
         <a href="http://eligo.co.uk" target="_blank">
-          <img src="[% make_uri_info('img/logos', 'eligo.jpg') %]" alt="Eligo Technology"  width="160px" />
+          <img src="[% make_uri_info('img/logos', 'eligo.jpg') %]"
+            alt="Eligo Technology"  width="160px" />
         </a>
       </td>
       <td>
@@ -67,7 +69,8 @@
     <tr>
       <td>
         <a href="http://www.perl6.org/" target="_blank">
-          <img src="[% make_uri_info('img/logos', 'camelia.png') %]" alt="Perl 6"  width="160px" />
+          <img src="[% make_uri_info('img/logos', 'camelia.png') %]"
+            alt="Perl 6"  width="160px" />
         </a>
       </td>
       <td>
@@ -96,7 +99,8 @@
     <tr>
       <td>
         <a href="http://tevreden.nl" target="_blank">
-          <img src="[% make_uri_info('img/logos', 'tevreden.png') %]" alt="Tevreden . NL"  width="160px" />
+          <img src="[% make_uri_info('img/logos', 'tevreden.png') %]"
+            alt="Tevreden . NL"  width="160px" />
         </a>
       </td>
       <td>
@@ -119,7 +123,8 @@
     <tr>
       <td>
         <a href="http://perl.careers" target="_blank">
-          <img src="[% make_uri_info('img/logos', 'xmsitmNE.png') %]" alt="Perl Careers"  width="160px" />
+          <img src="[% make_uri_info('img/logos', 'xmsitmNE.png') %]"
+            alt="Perl Careers"  width="160px" />
         </a>
       </td>
       <td>
@@ -147,7 +152,8 @@
     <tr>
       <td>
         <a href="http://www.spoorgloren.nl" target="_blank">
-          <img src="[% make_uri_info('img/logos', 'spoorgloren.png') %]" alt="Spoorgloren"  width="160px" />
+          <img src="[% make_uri_info('img/logos', 'spoorgloren.png') %]"
+            alt="Spoorgloren"  width="160px" />
         </a>
       </td>
       <td>
@@ -191,7 +197,8 @@
     <tr>
       <td>
         <a href="http://perldancer.org/" target="_blank">
-          <img src="[% make_uri_info('img/logos', 'dancer.png') %]" alt="Perl Dancer MVC"  width="160px" />
+          <img src="[% make_uri_info('img/logos', 'dancer.png') %]"
+            alt="Perl Dancer MVC"  width="160px" />
         </a>
       </td>
       <td>
@@ -223,7 +230,8 @@
     <tr>
       <td>
         <a href="http://www.dbix-class.org/" target="_blank">
-          <img src="[% make_uri_info('img/logos', 'dbic.png') %]" alt="DBIx::Class"  width="160px" />
+          <img src="[% make_uri_info('img/logos', 'dbic.png') %]"
+            alt="DBIx::Class"  width="160px" />
         </a>
       </td>
       <td>
@@ -240,7 +248,8 @@
       <td>
         <div class="sponsor-page-link">
           <a href="http://tnx.nl/" target="_blank">
-            <img src="[% make_uri_info('img/logos', 'tnx.png') %]" alt="TNX"  width="160px" />
+            <img src="[% make_uri_info('img/logos', 'tnx.png') %]"
+              alt="TNX"  width="160px" />
         </a>
       </td>
       <td>
