@@ -98,7 +98,7 @@
     <tr>
       <td valign="top">
         <a href="http://tevreden.nl" target="_blank">
-          <img src="[% make_uri_info('img/logos', 'tevreden.png') %]"
+          <img src="[% make_uri_info('img/logos', 'tevreden_logo_blue.png') %]"
             alt="Tevreden . NL"  width="160px" />
         </a>
       </td>
