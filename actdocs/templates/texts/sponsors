@@ -115,13 +115,13 @@
 <en>Our Silver sponsors</en></t>
 </h2>
 
-<a id="Perl_Careers"></a>
+<a id="perl_careers"></a>
 <div class="sponsor-page-link">
   <table>
     <tr>
       <td valign="top">
         <a href="http://perl.careers" target="_blank">
-          <img src="[% make_uri_info('img/logos', 'xmsitmNE.png') %]"
+          <img src="[% make_uri_info('img/logos', 'perl_careers.png') %]"
             alt="Perl Careers"  width="160px" />
         </a>
       </td>
@@ -169,7 +169,7 @@
 <en>Our Bronze sponsors</en></t>
 </h2>
 
-<a id="THEMA-MEDIA"></a>
+<a id="thema_media"></a>
 <div class="sponsor-page-link">
   <table>
     <tr>
@@ -190,7 +190,7 @@
   </table>
 </div>
 
-<a id="Dancer"></a>
+<a id="dancer"></a>
 <div class="sponsor-page-link">
   <table>
     <tr>
@@ -223,7 +223,7 @@
   </table>
 </div>
 
-<a id="DBIx_Class"></a>
+<a id="dbix_class"></a>
 <div class="sponsor-page-link">
   <table>
     <tr>
@@ -240,7 +240,7 @@
   </table>
 </div>
   
-<a id="TNX"></a>
+<a id="tnx"></a>
 <div class="sponsor-page-link">
   <table>
     <tr>
