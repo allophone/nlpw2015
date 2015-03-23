@@ -1,127 +1,268 @@
 <p class="space_before_h4"/>
 
-<a id="sponsor_bm_001"></a>
 <h2>
 <t><nl>Onze Platinum sponsors</nl>
 <en>Our Platinum sponsors</en></t>
 </h2>
 
-  <div class="sponsor-page-link">
-    <a href="http://www.booking.com" target="_blank">
-      <img src="[% make_uri_info('img/logos', 'booking.png') %]" 
-          alt="sponsor" width="160px" />
-    </a>
-  </div>
-
+<a id="booking"></a>
+<div class="sponsor-page-link">
+  <table>
+    <tr>
+      <td>
+        <a href="http://www.booking.com" target="_blank">
+          <img src="[% make_uri_info('img/logos', 'booking.png') %]"
+            alt="Booking . com" width="160px" />
+        </a>
+      </td>
+      <td>
+        <h3>Booking . com</h3>
+      </td>
+    </tr>
+  </table>
+</div>
 
 <p class="space_before_h4"/>
-
-<a id="sponsor_bm_011"></a>
-<a id="sponsor_bm_012"></a>
 <h2>
 <t><nl>Onze Gouden sponsors</nl>
 <en>Our Gold sponsors</en></t>
 </h2>
 
-[% IF 0 %]
-  <div class="sponsor-page-link">
-    <a href="http://tevreden.nl" target="_blank">
-      <img src="[% make_uri_info('img/logos', 'tevreden.png') %]" 
-            alt="sponsor"  width="160px" />
-    </a>
-  </div>
-[% END %]
-
-  <div class="sponsor-page-link">
-    <a href="http://eligo.co.uk" target="_blank">
-      <img src="[% make_uri_info('img/logos', 'eligo.jpg') %]" 
-            alt="sponsor"  width="160px" />
-    </a>
-  </div>
-
-  <div class="sponsor-page-link">
-    <table><tr>
+<a id="eligo"></a>
+<div class="sponsor-page-link">
+  <table>
+    <tr>
       <td>
-        <a href="http://www.perl6.org/" target="_blank">
-          <img src="[% make_uri_info('img/logos', 'camelia.png') %]" 
-          alt="sponsor"  width="160px" />
+        <a href="http://eligo.co.uk" target="_blank">
+          <img src="[% make_uri_info('img/logos', 'eligo.jpg') %]"
+            alt="Eligo Technology"  width="160px" />
         </a>
       </td>
       <td>
-        <a id="sponsor_bm_012" href="http://www.perl6.org/" target="_blank">
-          <p>The Perl 6 Community</p>
-        </a>
+        <h3>Eligo Technology</h3>
         <p>
-Camelia is the spokesbug for Perl 6, the spunky little sister of Perl 5. Like her world-famous big sister, Perl 6 intends to carry forward the high ideals of the Perl community.
-        </p><p>
-Perl 6 is currently being developed by a team of dedicated and enthusiastic volunteers. You can help too. The only requirement is that you know how to be nice to all kinds of people (and butterflies). Go to #perl6 (irc.freenode.net) and someone will be glad to help you get started. 
+        We are a niche Technology recruitment consultancy with a team of
+        dedicated Perl Consultants.
+        </p>
+        <p>
+        We live and breathe our markets. In fact we like to think we are as
+        passionate about the sector as those who work within it. If you want
+        proof of it stop by and meet Rick Deller our resident Perl expert and
+        Head of Open Source Recruitment.
+        </p> 
+
+        <p>
+        We understand the market history, shifts and challenges, which
+        enables us to provide honest and accurate insight in terms of new
+        entrants to the market, company growth, new products, opportunities,
+        candidate availability, salary surveys, industry standards, competitor
+        information etc.
         </p>
       </td>
-    </tr></table>
-  </div>
+    </tr>
+  </table>
+</div>
 
+<a id="perl6"></a>
+<div class="sponsor-page-link">
+  <table>
+    <tr>
+      <td>
+        <a href="http://www.perl6.org/" target="_blank">
+          <img src="[% make_uri_info('img/logos', 'camelia.png') %]"
+            alt="Perl 6"  width="160px" />
+        </a>
+      </td>
+      <td>
+        <h3>The Perl 6 Community</h3>
+        <p>
+        Camelia is the spokesbug for Perl 6, the spunky little sister of Perl 5.
+        Like her world-famous big sister, Perl 6 intends to carry forward the
+        high ideals of the Perl community.
+        </p>
+        <p>
+        Perl 6 is currently being developed by a team of dedicated and
+        enthusiastic volunteers. You can help too. The only requirement is that
+        you know how to be nice to all kinds of people (and butterflies). Go to
+        #perl6 (irc.freenode.net) and someone will be glad to help you get
+        started. 
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
 
-</h2>
-<p></p>
-
+[% IF 0 %]
+<a id="tevreden"></a>
+<div class="sponsor-page-link">
+  <table>
+    <tr>
+      <td>
+        <a href="http://tevreden.nl" target="_blank">
+          <img src="[% make_uri_info('img/logos', 'tevreden.png') %]"
+            alt="Tevreden . NL"  width="160px" />
+        </a>
+      </td>
+      <td>
+        <h3>Tevreden . nl</h3>
+      </td>
+    </tr>
+  </table>
+</div>
+[% END %]
 
 <p class="space_before_h4"/>
-<a id="sponsor_bm_022"></a>
 <h2>
 <t><nl>Onze Zilveren sponsors</nl>
 <en>Our Silver sponsors</en></t>
 </h2>
 
-[% IF 0 %]
+<a id="Perl_Careers"></a>
 <div class="sponsor-page-link">
-  <a href="http://www.spoorgloren.nl" target="_blank">
-    <img src="[% make_uri_info('img/logos', 'spoorgloren.png') %]" 
-          alt="sponsor"  width="160px" />
-  </a>
+  <table>
+    <tr>
+      <td>
+        <a href="http://perl.careers" target="_blank">
+          <img src="[% make_uri_info('img/logos', 'xmsitmNE.png') %]"
+            alt="Perl Careers"  width="160px" />
+        </a>
+      </td>
+      <td>
+        <h3>Perl Careers - Perl recruitment done right</h3>
+      </td>
+      <p>
+      Perl Careers is a Perl-focused recruitment consultancy, run by a CPAN
+      contributor with a recruitment background, rather than by a non-technical
+      person. Most of the roles and candidates I work with are based in London.
+      </p>
+      <p>
+      I can understand the skills you're looking to hire for, make sense of
+      your GitHub profile, and offer specific Perl-related career and salary
+      advice.
+      </p>
+    </tr>
+  </table>
+</div>
+
+
+[% IF 0 %]
+<a id="spoorgloren"></a>
+<div class="sponsor-page-link">
+  <table>
+    <tr>
+      <td>
+        <a href="http://www.spoorgloren.nl" target="_blank">
+          <img src="[% make_uri_info('img/logos', 'spoorgloren.png') %]"
+            alt="Spoorgloren"  width="160px" />
+        </a>
+      </td>
+      <td>
+        <h3>Spoorgloren</h3>
+      </td>
+    </tr>
+  </table>
 </div>
 [% END %]
 
-
 <p class="space_before_h4"/>
-<a id="sponsor_bm_033"></a>
-<a id="sponsor_bm_034"></a>
 <h2>
 <t><nl>Onze Bronzen sponsors</nl>
 <en>Our Bronze sponsors</en></t>
 </h2>
 
-  <div class="sponsor-page-link">
-    <a href="http://thema-media.nl/" target="_blank">
-      <img src="[% make_uri_info('img/logos', 'themamedia.png') %]" 
-            alt="sponsor"  width="160px" />
-    </a>
-  </div>
+<a id="THEMA-MEDIA"></a>
+<div class="sponsor-page-link">
+  <table>
+    <tr>
+      <td>
+        <a href="http://thema-media.nl/" target="_blank">
+          <img src="[% make_uri_info('img/logos', 'themamedia.png') %]" alt="THEMA-MEDIA"  width="160px" />
+        </a>
+      </td>
+      <td>
+        <h3>T&nbsp;H&nbsp;E&nbsp;M&nbsp;A&nbsp;-&nbsp;M&nbsp;E&nbsp;D&nbsp;I&nbsp;A</h3>
+        <p>
+        more than <b>20 years</b> providing
+        <br>
+        <b>flexibel solutions</b> on <b>standard based technologies</b>
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
 
-  <div class="sponsor-page-link">
-    <a href="http://perldancer.org/" target="_blank">
-      <img src="[% make_uri_info('img/logos', 'dancer.png') %]" 
-            alt="sponsor"  width="160px" />
-    </a>
-  </div>
+<a id="Dancer"></a>
+<div class="sponsor-page-link">
+  <table>
+    <tr>
+      <td>
+        <a href="http://perldancer.org/" target="_blank">
+          <img src="[% make_uri_info('img/logos', 'dancer.png') %]"
+            alt="Perl Dancer MVC"  width="160px" />
+        </a>
+      </td>
+      <td>
+        <h3>Dancer</h3>
+        <p>
+        Perl Web Framework for easy and fun webapp development
+        </p>
+        <p>
+        Dancer is a web application framework designed to be as effortless as
+        possible for the developer, taking care of the boring bits as easily as
+        possible, yet staying out of your way and letting you get on with
+        writing your code.
+        </p>
+        <p>
+        Dancer aims to provide the simplest way for writing web applications,
+        and offers the flexibility to scale between a very simple lightweight
+        web service consisting of a few lines of code in a single file, all the
+        way up to a more complex fully-fledged web application with session
+        support, templates for views and layouts, etc.
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
 
-  <div class="sponsor-page-link">
-    <a href="http://www.dbix-class.org/" target="_blank">
-      <table>
-        <tr>
-          <td>
-      <img src="[% make_uri_info('img/logos', 'dbic.png') %]" 
-            alt="sponsor"  width="160px" />
-          </td>
-          <td>DBIx::Class</td>
-        </tr>
-      </table>
-    </a>
-  </div>
+<a id="DBIx_Class"></a>
+<div class="sponsor-page-link">
+  <table>
+    <tr>
+      <td>
+        <a href="http://www.dbix-class.org/" target="_blank">
+          <img src="[% make_uri_info('img/logos', 'dbic.png') %]"
+            alt="DBIx::Class"  width="160px" />
+        </a>
+      </td>
+      <td>
+        <h3>DBIx::Class</h3>
+      </td>
+    </tr>
+  </table>
+</div>
   
-  <div class="sponsor-page-link">
-    <a href="http://tnx.nl/" target="_blank">
-      <img src="[% make_uri_info('img/logos', 'tnx.png') %]" 
-            alt="sponsor"  width="160px" />
-    </a>
-  </div>
+<a id="TNX"></a>
+<div class="sponsor-page-link">
+  <table>
+    <tr>
+      <td>
+        <div class="sponsor-page-link">
+          <a href="http://tnx.nl/" target="_blank">
+            <img src="[% make_uri_info('img/logos', 'tnx.png') %]"
+              alt="TNX"  width="160px" />
+        </a>
+      </td>
+      <td>
+        <h3>TNX</h3>
+        <p>
+        Sinds 2000 levert TNX diensten en apparatuur op het gebied van
+        informatie- en communicatietechnologie. Hoewel we ons primair richten
+        op het MKB in de Drechtsteden, ICT-bedrijven en bedrijven met
+        ICT-afdeling, hebben we klanten verspreid over heel Nederland (en
+        daarbuiten) en veel verschillende branches.
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
   
