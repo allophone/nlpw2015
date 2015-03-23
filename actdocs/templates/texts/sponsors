@@ -9,13 +9,13 @@
 <div class="sponsor-page-link">
   <table>
     <tr>
-      <td>
+      <td valign="top">
         <a href="http://www.booking.com" target="_blank">
           <img src="[% make_uri_info('img/logos', 'booking.png') %]"
             alt="Booking . com" width="160px" />
         </a>
       </td>
-      <td>
+      <td valign="top">
         <h3>Booking . com</h3>
       </td>
     </tr>
@@ -32,13 +32,13 @@
 <div class="sponsor-page-link">
   <table>
     <tr>
-      <td>
+      <td valign="top">
         <a href="http://eligo.co.uk" target="_blank">
           <img src="[% make_uri_info('img/logos', 'eligo.jpg') %]"
             alt="Eligo Technology"  width="160px" />
         </a>
       </td>
-      <td>
+      <td valign="top">
         <h3>Eligo Technology</h3>
         <p>
         We are a niche Technology recruitment consultancy with a team of
@@ -67,13 +67,13 @@
 <div class="sponsor-page-link">
   <table>
     <tr>
-      <td>
+      <td valign="top">
         <a href="http://www.perl6.org/" target="_blank">
           <img src="[% make_uri_info('img/logos', 'camelia.png') %]"
             alt="Perl 6"  width="160px" />
         </a>
       </td>
-      <td>
+      <td valign="top">
         <h3>The Perl 6 Community</h3>
         <p>
         Camelia is the spokesbug for Perl 6, the spunky little sister of Perl 5.
@@ -92,24 +92,22 @@
   </table>
 </div>
 
-[% IF 0 %]
 <a id="tevreden"></a>
 <div class="sponsor-page-link">
   <table>
     <tr>
-      <td>
+      <td valign="top">
         <a href="http://tevreden.nl" target="_blank">
           <img src="[% make_uri_info('img/logos', 'tevreden.png') %]"
             alt="Tevreden . NL"  width="160px" />
         </a>
       </td>
-      <td>
+      <td valign="top">
         <h3>Tevreden . nl</h3>
       </td>
     </tr>
   </table>
 </div>
-[% END %]
 
 <p class="space_before_h4"/>
 <h2>
@@ -121,25 +119,26 @@
 <div class="sponsor-page-link">
   <table>
     <tr>
-      <td>
+      <td valign="top">
         <a href="http://perl.careers" target="_blank">
           <img src="[% make_uri_info('img/logos', 'xmsitmNE.png') %]"
             alt="Perl Careers"  width="160px" />
         </a>
       </td>
-      <td>
+      <td valign="top">
         <h3>Perl Careers - Perl recruitment done right</h3>
+        <p>
+        Perl Careers is a Perl-focused recruitment consultancy, run by a CPAN
+        contributor with a recruitment background, rather than by a
+        non-technical person. Most of the roles and candidates I work with are
+        based in London.
+        </p>
+        <p>
+        I can understand the skills you're looking to hire for, make sense of
+        your GitHub profile, and offer specific Perl-related career and salary
+        advice.
+        </p>
       </td>
-      <p>
-      Perl Careers is a Perl-focused recruitment consultancy, run by a CPAN
-      contributor with a recruitment background, rather than by a non-technical
-      person. Most of the roles and candidates I work with are based in London.
-      </p>
-      <p>
-      I can understand the skills you're looking to hire for, make sense of
-      your GitHub profile, and offer specific Perl-related career and salary
-      advice.
-      </p>
     </tr>
   </table>
 </div>
@@ -150,13 +149,13 @@
 <div class="sponsor-page-link">
   <table>
     <tr>
-      <td>
+      <td valign="top">
         <a href="http://www.spoorgloren.nl" target="_blank">
           <img src="[% make_uri_info('img/logos', 'spoorgloren.png') %]"
             alt="Spoorgloren"  width="160px" />
         </a>
       </td>
-      <td>
+      <td valign="top">
         <h3>Spoorgloren</h3>
       </td>
     </tr>
@@ -174,12 +173,12 @@
 <div class="sponsor-page-link">
   <table>
     <tr>
-      <td>
+      <td valign="top">
         <a href="http://thema-media.nl/" target="_blank">
           <img src="[% make_uri_info('img/logos', 'themamedia.png') %]" alt="THEMA-MEDIA"  width="160px" />
         </a>
       </td>
-      <td>
+      <td valign="top">
         <h3>T&nbsp;H&nbsp;E&nbsp;M&nbsp;A&nbsp;-&nbsp;M&nbsp;E&nbsp;D&nbsp;I&nbsp;A</h3>
         <p>
         more than <b>20 years</b> providing
@@ -195,13 +194,13 @@
 <div class="sponsor-page-link">
   <table>
     <tr>
-      <td>
+      <td valign="top">
         <a href="http://perldancer.org/" target="_blank">
           <img src="[% make_uri_info('img/logos', 'dancer.png') %]"
             alt="Perl Dancer MVC"  width="160px" />
         </a>
       </td>
-      <td>
+      <td valign="top">
         <h3>Dancer</h3>
         <p>
         Perl Web Framework for easy and fun webapp development
@@ -228,13 +227,13 @@
 <div class="sponsor-page-link">
   <table>
     <tr>
-      <td>
+      <td valign="top">
         <a href="http://www.dbix-class.org/" target="_blank">
           <img src="[% make_uri_info('img/logos', 'dbic.png') %]"
             alt="DBIx::Class"  width="160px" />
         </a>
       </td>
-      <td>
+      <td valign="top">
         <h3>DBIx::Class</h3>
       </td>
     </tr>
@@ -245,14 +244,14 @@
 <div class="sponsor-page-link">
   <table>
     <tr>
-      <td>
+      <td valign="top">
         <div class="sponsor-page-link">
           <a href="http://tnx.nl/" target="_blank">
             <img src="[% make_uri_info('img/logos', 'tnx.png') %]"
               alt="TNX"  width="160px" />
         </a>
       </td>
-      <td>
+      <td valign="top">
         <h3>TNX</h3>
         <p>
         Sinds 2000 levert TNX diensten en apparatuur op het gebied van
