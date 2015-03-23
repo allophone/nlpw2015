@@ -13,11 +13,21 @@
     <div ID="sponsor_glod_2" class="col-sm-6">
       <img src="/nlpw2015/img/logos/camelia.png" alt="gold sponsor 2" style="width: 100%;">
     </div>
-    <div ID="sponsor_slvr_1" class="col-sm-4">
+    <div ID="sponsor_glod_0L" class="col-sm-1">
+      <img src="/nlpw2015/img/logos/tevreden_logo_blue.png" alt="gold sponsor 2" style="width: 100%;">
     </div>
-    <div ID="sponsor_slvr_2" class="col-sm-4">
+    <div ID="sponsor_glod_3" class="col-sm-10">
+      <img src="/nlpw2015/img/logos/tevreden_logo_blue.png" alt="gold sponsor 2" style="width: 100%;">
     </div>
-    <div ID="sponsor_slvr_3" class="col-sm-4">
+    <div ID="sponsor_glod_0R" class="col-sm-1">
+      <img src="/nlpw2015/img/logos/tevreden_logo_blue.png" alt="gold sponsor 2" style="width: 100%;">
+    </div>
+    <div ID="sponsor_slvr_1" class="col-sm-2">
+    </div>
+    <div ID="sponsor_slvr_2" class="col-sm-8">
+      <img src="/nlpw2015/img/logos/perl_careers_logo_white.png" alt="gold sponsor 2" style="width: 100%;">
+    </div>
+    <div ID="sponsor_slvr_3" class="col-sm-2">
     </div>
   </div>
 </div>
