@@ -1,7 +1,7 @@
 <div class="col-md-6 col-sm-12">
   <div class="row">
     <div ID="sponsor_plat_0" class="col-sm-12">
-     <a href="/nlpw2015/sponsors.html#booking>
+     <a href="/nlpw2015/sponsors.html#booking">
       <img src="/nlpw2015/img/logos/booking.png" alt="platinum sponsor" style="width: 100%;">
      </a>
     </div>
@@ -10,19 +10,19 @@
 <div class="col-md-6 col-sm-12">
   <div class="row">
     <div ID="sponsor_gold_1" class="col-sm-6">
-     <a href="/nlpw2015/sponsors.html#eligo>
+     <a href="/nlpw2015/sponsors.html#eligo">
       <img src="/nlpw2015/img/logos/eligo.jpg" alt="gold sponsor 1" style="width: 100%;">
      </a>
     </div>
     <div ID="sponsor_glod_2" class="col-sm-6">
-     <a href="/nlpw2015/sponsors.html#perl6>
+     <a href="/nlpw2015/sponsors.html#perl6">
       <img src="/nlpw2015/img/logos/camelia.png" alt="gold sponsor 2" style="width: 100%;">
      </a>
     </div>
     <div ID="sponsor_glod_0L" class="col-sm-1">
     </div>
     <div ID="sponsor_glod_3" class="col-sm-10">
-     <a href="/nlpw2015/sponsors.html#tevreden>
+     <a href="/nlpw2015/sponsors.html#tevreden">
       <img src="/nlpw2015/img/logos/tevreden_logo_blue.png" alt="gold sponsor 2" style="width: 100%;">
      </a>
     </div>
@@ -31,7 +31,7 @@
     <div ID="sponsor_slvr_1" class="col-sm-2">
     </div>
     <div ID="sponsor_slvr_2" class="col-sm-8">
-     <a href="/nlpw2015/sponsors.html#perl_careers>
+     <a href="/nlpw2015/sponsors.html#perl_careers">
       <img src="/nlpw2015/img/logos/perl_careers_logo_white.png" alt="gold sponsor 2" style="width: 100%;">
      </a>
     </div>
@@ -44,22 +44,22 @@
     <div id="sponsor_brnz_1" class="col-sm-4 col-md-2">
     </div>
     <div id="sponsor_brnz_2" class="col-sm-4 col-md-2">
-     <a href="/nlpw2015/sponsors.html#dancer>
+     <a href="/nlpw2015/sponsors.html#dancer">
       <img src="/nlpw2015/img/logos/dancer.png" alt="bronze sponsor 2" style="width: 100%;">
      </a>
     </div>
     <div id="sponsor_brnz_3" class="col-sm-4 col-md-2">
-     <a href="/nlpw2015/sponsors.html#thema_media>
+     <a href="/nlpw2015/sponsors.html#thema_media">
       <img src="/nlpw2015/img/logos/themamedia.png" alt="bronze sponsor 3" style="width: 100%;">
      </a>
     </div>
     <div id="sponsor_brnz_4" class="col-sm-4 col-md-2">
-     <a href="/nlpw2015/sponsors.html#dbix_class>
+     <a href="/nlpw2015/sponsors.html#dbix_class">
       <img src="/nlpw2015/img/logos/dbic.png" alt="bronze sponsor 4" style="width: 100%;">
      </a>
     </div>
     <div id="sponsor_brnz_5" class="col-sm-4 col-md-2">
-     <a href="/nlpw2015/sponsors.html#tnx>
+     <a href="/nlpw2015/sponsors.html#tnx">
       <img src="/nlpw2015/img/logos/tnx.png" alt="bronze sponsor 5" style="width: 100%;">
      </a>
     </div>
