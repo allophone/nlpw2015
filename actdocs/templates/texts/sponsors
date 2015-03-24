@@ -34,6 +34,31 @@
   </table>
 </div>
 
+<a id="xs4all"></a>
+<div class="sponsor-page-link">
+  <table>
+    <tr>
+      <td valign="top">
+        <h3>&nbsp;</h3>
+        <a href="http://www.xs4all.com" target="_blank">
+          <img src="[% make_uri_info('img/logos', 'xs4all_logo_yellow_rgb.png') %]"
+            alt="XS4ALL" width="160px" />
+        </a>
+      </td>
+      <td valign="top">
+        <h3>XS4ALL</h3>
+        <p>
+        XS4ALL was founded by a group of internet pioneers in 1993. Since then
+        it has grown to become the quality internet service provider for
+        businesses and consumers in the Netherlands. XS4ALL stands for
+        excellent service, secure, high-quality internet services and social
+        engagement.
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
+
 <p class="space_before_h4"/>
 <h2>
 <t><nl>Onze Gouden sponsors</nl>
