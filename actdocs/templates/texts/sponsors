@@ -114,16 +114,17 @@
         </a>
       </td>
       <td valign="top">
-        <h3>Tevreden . nl</h3>
+        <h3>Tevreden.nl</h3>
         <p>
-        Tevreden.nl is een toonaangevend bureau op het gebied van klant- en
-        medewerkertevredenheidsonderzoek. Wij bieden totaaloplossingen aan een
-        verscheidenheid van dienstverlenende bedrijven en instanties. Door
-        branchebrede of organisatie-specifieke onderzoeksoplossingen te
-        ontwikkelen kunnen organisaties doorlopend de tevredenheid van klanten
-        en medewerkers in kaart brengen. De mogelijkheid om deze scores &
-        reviews te publiceren maakt Tevreden.nl tot de unieke
-        onderzoeksoplossing voor 4e generatie onderzoek.
+        We empower companies to really listen to their clients. Thereby we
+        enable those companies to make changes to measurably improve their
+        customer’s satisfaction and increase sales and profits.
+        </p>
+        <p>
+        To do so, we use Perl 5.18 to conduct online customer satisfaction
+        research and employee satisfaction research. We deployed a suite of web
+        applications, with technology ranging from legacy mod_perl to state of
+        the art Dancer2.
         </p>
       </td>
     </tr>
