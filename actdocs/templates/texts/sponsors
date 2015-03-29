@@ -294,6 +294,12 @@
       </td>
       <td valign="top">
         <h3>DBIx::Class</h3>
+        DBIx::Class (also known as DBIC) is an extensible and flexible
+        Object/Relational Mapper (ORM) written in Perl. The advantage of using
+        an ORM is to speed development, abstract data and make it pole the
+        database. This allows you to represent your business rules through
+        object orientated design and generate boilerplate code for CRUD
+        operations.
       </td>
     </tr>
   </table>
