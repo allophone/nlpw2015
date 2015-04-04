@@ -1,0 +1,32 @@
+<table border="0" class="paddedtable">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>
+      <t>
+        <nl>Datum workshop</nl>
+        <en>Date of the workshop</en>
+      </t>
+    </td>
+    <td>:</td>
+    <td><b>[% cs_event_dow %] [% cs_event_date %]</b></td>
+  </tr>
+  <tr>
+    <td>{{Invoice #}}</td>
+    <td>:</td>
+    <td><b>[% invoice.invoice_no %]</b></td>
+  </tr>
+  <tr>
+    <td>
+      <t><nl>Factuurdatum</nl><en>Invoice date</en></t>
+    </td>
+    <td>:</td>
+    <td><b>[% date_format(invoice.datetime, 'date_full') %]</b></td>
+  </tr>
+  <tr>
+    <td>{{Printed on}}</td>
+    <td>:</td>
+    <td><b>[% date_format(today, 'date_full') %]</b></td>
+  </tr>
+</table>
