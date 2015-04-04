@@ -1,0 +1,46 @@
+[% IF !cs_processed %][% PROCESS custom/strings %][% END %]
+
+[% BLOCK invoice_body  %]
+
+<div style="width:700px;background-color:#FFF;color:#000;">
+  [% PROCESS payment/invoice_letter_head %]
+  [% PROCESS payment/invoice_below_head %]
+</div>
+
+[% END %]
+
+[% IF printer_friendly %]
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="[% global.request.language %]" xml:lang="[% global.request.language %]">
+<head>
+<title>{{Invoice}}</title>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+[% PROCESS invoice_body %]
+</body>
+</html>
+
+
+[% ELSE;
+   WRAPPER ui title = loc('Invoice')
+%]
+
+<!--
+[%# Remove the following <div>...</div> if you use the printer_friendly version mechanism %]
+<div id="dontprint">
+<p>{{You can print this page: only the invoice below will be printed.}}</p>
+</div>
+-->
+
+<p>
+<t><nl>
+Onderstaand ziet u de factuur voor uw workshopbetaling. <a href="[% printer_uri %]" target="_blank">Klik hier voor een afdrukvriendelijke versie.</a>
+</nl><en>
+Please find below the invoice for your workshop payment. <a href="[% printer_uri %]" target="_blank">Click here for a print-friendly version.</a>
+</en></t>
+</p>
+<hr>
+[% PROCESS invoice_body %]
+
+[% END; END %]

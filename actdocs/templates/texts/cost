@@ -14,7 +14,7 @@ The workshop fee is:
 </en></t>
 </p>
 
-<table style="font-size:90%; margin-left:2em;">
+<table class="paddedtable" style="font-size:90%; margin-left:2em;">
   <tr>
     <td style="vertical-align:top;">&euro;</td>
     <td style="text-align:right;vertical-align:top;">215</td>
@@ -190,10 +190,10 @@ Maak het geld over naar:
 </nl><en>
 Transfer the money to:
 </en></t>
-<table style="font-size:90%;border-collapse:collapse;" border="1px">
+<table class="paddedtable" style="font-size:90%;border-collapse:collapse;" border="1px">
   <tr>
     <td><t><nl>Rekening</nl><en>Account no.</en></t></td>
-    <td>Rabobank, <t><nl>rek.nr.</nl><en>Acct. no.</en></t> 32.46.27.238<br/>(IBAN: NL27RABO0324627238) </td>
+    <td>Rabobank<br/><t><nl>rek.nr.</nl><en>Account no.</en></t> (IBAN): NL27 RABO 0324 6272 38<br/>BIC: RABONL2U</td>
   </tr>
   <tr>
     <td><t><nl>t.n.v.</nl><en>Account name</en></t></td>

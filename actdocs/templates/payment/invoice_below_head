@@ -1,0 +1,26 @@
+<p style="margin-top:10px;"></p>
+
+<!-- rij: 'factuur voor'/omschrijving/datum' -->
+<t><nl>Factuur voor:</nl><en>Invoice for:</en></t>
+<p style="text-align:center">
+  <u><b>
+    <t>
+      <nl>Deelname aan de Nederlandse Perl-Workshop [% cs_event_year %]</nl>
+      <en>Attendance of the Dutch Perl Workshop [% cs_event_year %]</en>
+    </t>
+  </b></u>
+</p>
+
+<!-- rij: factuurnr./datum/afgedrukt op -->
+[% PROCESS payment/invoice_nr_date %]
+
+<p style="margin-top:10px;"></p>
+
+<!-- kop klantgegevens -->
+<u><t><nl>Deelnemer:</nl><en>Attendee:</en></t></u>
+[% PROCESS payment/invoice_customer %]
+
+<p style="margin-top:10px;"></p>
+
+<!-- productspecificatie -->
+[% PROCESS payment/invoice_purchases %]

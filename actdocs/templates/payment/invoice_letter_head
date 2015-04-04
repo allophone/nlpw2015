@@ -1,0 +1,17 @@
+<table border="0">
+  <tr>
+    <td valign="top" align="left" colspan="2">
+      <h2>SPPN</h2>
+      <a  href="logo.html"><img
+    src="[% cs_home_link %]img/prp-100w-102h.jpg" border="0" valign="top"
+    alt="Perl Programming Republic" width="120" height="120" /></a>
+    </td>
+    <td width="20"></td>
+    <td valign="top">
+      <h2>Stichting Perl Promotie Nederland</h2>
+      [% PROCESS payment/invoice_sender %]
+    </td>
+  </tr>
+</table>
+
+<p style="margin-top:20px;"></p>

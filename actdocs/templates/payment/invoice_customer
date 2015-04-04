@@ -1,0 +1,17 @@
+<!-- klantgegevens -->
+
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      [% invoice.first_name %]&nbsp;[% invoice.last_name %]
+    </td>
+    <td valign="top" width="50%">
+      [% IF invoice.company; invoice.company; "<br />"; END %]
+      [% invoice.address | html_line_break %]
+      [% IF invoice.vat %]
+      <br>
+        {{VAT Number}}:
+      [% invoice.vat; END %]
+    </td>
+  </tr>
+</table>

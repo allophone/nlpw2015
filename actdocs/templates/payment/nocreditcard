@@ -1,0 +1,38 @@
+<hr size="1" style="margin:1em 0 1em 0;"/>
+<p>
+ <t>
+  <nl>Als u niet per creditcard kunt of wilt betalen, verzoeken wij u
+      dit bedrag over te maken op onderstaande rekening, zoals toegelicht op de pagina <a href="[% make_uri('cost.html') %]">Kosten en betaling</a>.
+  </nl>
+  <en>If you cannot or prefer not to use a credit card, please pay this amount
+      by bank transfer to 
+      the below bank account, as explained on the page <a href="[% make_uri('cost.html') %]">Cost and payment</a>.
+  </en>
+ </t>
+</p>
+
+<p style="height:20px;"/>
+
+<table style="font-size:90%;border-collapse:collapse;" border="1px">
+  <tr>
+    <td><t><nl>Rekening</nl><en>Account no.</en></t></p></td>
+    <td>Rabobank, <t><nl>rek.nr.</nl><en>Acct. no.</en></t> 32.46.27.238<br/>(IBAN: NL27RABO0324627238) </td>
+  <tr>
+  <tr>
+    <td><t><nl>t.n.v.</nl><en>Account name</en></t></td>
+    <td>Stichting Perl Promotie Nederland</td>
+  <tr>
+  <tr>
+    <td><t><nl>te</nl><en>Place</en></t></td>
+    <td>Beverwijk</td>
+  <tr>
+  <tr>
+    <td><t><nl>Omschrijving</nl><en>Description</en></t></td>
+    <td>
+      <t>
+        <nl>&lt;een duidelijke omschrijving die u in uw email noemt&gt;</nl>
+        <en>&lt;a clear description to be mentioned in your email&gt;</en>
+      </t>
+    </td>
+  <tr>
+</table>
