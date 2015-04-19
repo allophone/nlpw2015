@@ -51,10 +51,10 @@
 
       <li class="divider"></li>
       
-      [% WRAPPER menus/item %]
-        <a href="[% make_uri('main') %]">{{Log in}}</a>
-      [% END %]
-      
+    [% END %]
+    
+    [% WRAPPER menus/item %]
+      <a href="[% make_uri('main') %]">{{Log in}}</a>
     [% END %]
     
     </ul>
